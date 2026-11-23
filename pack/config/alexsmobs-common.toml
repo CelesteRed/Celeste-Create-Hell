@@ -24,9 +24,9 @@
 	#Whether dolphins should target flying fish mobs.
 	dolphinsAttackFlyingFish = true
 	#Whether lava can be bottled with a right click of a glass bottle.
-	lavaBottleEnabled = true
+	lavaBottleEnabled = false
 	#Whether bone serpents are neutral or hostile.
-	neutralBoneSerpents = false
+	neutralBoneSerpents = true
 	#Whether mimicubes spawns should be restricted solely to the end city structure or to whatever biome is specified in their respective biome config.
 	mimicubeSpawnInEndCity = true
 	#Whether mimicream can be used to duplicate items.
@@ -860,7 +860,7 @@
 	#Maximum world y-level that cave centipedes can spawn at
 	# Default: 0
 	# Range: -64 ~ 320
-	caveCentipedeSpawnHeight = 0
+	caveCentipedeSpawnHeight = -64
 	#Maximum world y-level that blobfish can spawn at
 	# Default: 25
 	# Range: -64 ~ 320
@@ -898,11 +898,11 @@
 	#The maximum distance a farseer can spawn from the world border.
 	# Default: 100
 	# Range: 2 ~ 1000000000
-	farseerBorderSpawnDistance = 100
+	farseerBorderSpawnDistance = 10
 	#Maximum world y-level that murmur can spawn at
 	# Default: -30
 	# Range: -64 ~ 320
-	murmurSpawnHeight = -30
+	murmurSpawnHeight = -64
 
 [dangerZone]
 	#Its been so long...

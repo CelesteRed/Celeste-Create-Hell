@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "supported_formats": [
+      48,
+      81
+    ],
+    "description": "Celeste Create Hell: fixes for older CCH datapacks + balance for new content"
+  }
+}

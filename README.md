@@ -79,6 +79,19 @@ To build a new `.mrpack`: `python3 tools/build_mrpack.py` → `dist/`. An old `.
 
 The pack also lists server-only mods (`side = "server"`). The server can sync from the same pack: put `unsup.jar` and an `unsup.ini` (same `source=`, but `force_env=server` and no `[branding]`) in the server folder, then add `-javaagent:unsup.jar` to the Pterodactyl startup command. That isn't set up yet.
 
+## Official server
+
+The live server runs on wings1 (Pterodactyl server `235d0353`). Its "hellish" balance lives in three places:
+
+- `config/create-server.toml` and the other `*-server.toml` / `*-common.toml` files. `pack/config/` holds the same copies, so singleplayer matches the server.
+- World datapacks in `world/datapacks/`; copies are in `server/datapacks/`:
+  - `CCH4.2.zip`: Create Rebalanced
+  - `CAR3.0.zip`: Create Aero Rebalanced
+  - `CGunsmithCCHRebalance1.0.zip`: no mass bullet crafting
+  - `LetsDoVineryRebalanced2.0.zip`, `NoMoreTemplateCrafting.zip`, `QuickFixes`, `HarkenOre`, `HigherHeights`
+  - `CCH-Reforged-Balance/`: fixes recipes in the packs above that broke on 1.21.1, and balances the new mods' content
+- Server-only mods: antixray, reducedores, reducedloot, Xaero's map server utils, CPM, plus the `side = "server"` mods in `pack/mods/`.
+
 ## Notes
 
 - Every mod, resource pack, shader and datapack in `pack/` is downloaded from Modrinth. The one exception is `celeste-early-fixes` (our own jar). The only other bundled files are configs, the emotes in `emotes/`, and the shader settings `.txt` files.

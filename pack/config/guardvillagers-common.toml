@@ -22,10 +22,10 @@
 	"Profession Whitelist for guard weaponry repair ai" = ["weaponsmith", "armorer", "toolsmith"]
 	# Default: 3
 	# Range: 0 ~ 1000000
-	"How many times a cleric can heal a guard in one day" = 5
+	"How many times a cleric can heal a guard in one day" = 3
 	# Default: 3
 	# Range: 0 ~ 1000000
-	"How many times a smith villager can heal a golem in one day" = 10
+	"How many times a smith villager can heal a golem in one day" = 3
 	# Default: 3
 	# Range: 0 ~ 1000000
 	"How many times a villager can heal a guard's equipment in one day" = 3
@@ -90,7 +90,7 @@
 	# Range: -500.0 ~ 500.0
 	"Guard health regeneration amount" = 1.0
 	"Allow guard arrows to damage villagers, iron golems, or other guards? The i-frames will still be shown for them but they won't lose any health if this is set to false" = true
-	"Allow players to give guards stuff only if they have the hero of the village effect?" = true
+	"Allow players to give guards stuff only if they have the hero of the village effect?" = false
 	"Allow players to set guard patrol points only if they have hero of the village" = false
 	# Default: 15
 	# Range: > -2147483648
@@ -99,4 +99,4 @@
 	# Default: -100
 	# Range: -9999 ~ 9999
 	"How low of a reputation of a player should have to be instantly aggroed upon by guards and golems?" = -100
-	"Allow guards to naturally patrol villages? This feature can cause lag if a lot of guards are spawned" = true
+	"Allow guards to naturally patrol villages? This feature can cause lag if a lot of guards are spawned" = false

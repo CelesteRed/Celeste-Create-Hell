@@ -40,6 +40,22 @@
 				white_portable_engine = 64.0
 				blue_portable_engine = 64.0
 				orange_portable_engine = 64.0
+				verdant_portable_engine = 64.0
+				tan_portable_engine = 64.0
+				mint_portable_engine = 64.0
+				teal_portable_engine = 64.0
+				forest_portable_engine = 64.0
+				rose_portable_engine = 64.0
+				ginger_portable_engine = 64.0
+				aqua_portable_engine = 64.0
+				maroon_portable_engine = 64.0
+				indigo_portable_engine = 64.0
+				olive_portable_engine = 64.0
+				amber_portable_engine = 64.0
+				beige_portable_engine = 64.0
+				coral_portable_engine = 64.0
+				slate_portable_engine = 64.0
+				navy_portable_engine = 64.0
 
 #.
 #Settings for sub-level assembly
@@ -207,6 +223,16 @@
 	# Default: 96.0
 	# Range: 0.0 ~ 256.0
 	max_swivel_bearing_speed = 96.0
+	#.
+	#The maximum FE capacity of Docking Connectors
+	# Default: 10000
+	# Range: > 0
+	docking_connector_fe_capacity = 10000
+	#.
+	#The maximum FE/t throughput of Docking Connectors
+	# Default: 10000
+	# Range: > 0
+	docking_connector_fe_throughput = 10000
 
 #.
 #Equipment and gadgets added by Simulated
