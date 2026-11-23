@@ -1937,8 +1937,8 @@ hash = "bf29c048059a9d0b6ff0c4fd3bf6995ffc9637239fa428571a09cbe30cb2237a"
 metafile = true
 
 [[files]]
-file = "mods/celeste-early-fixes-1.0.1.jar"
-hash = "ff760913b15103d6d8f64d26df01f18bdc9181288387f431edaf375b7e6c9bf1"
+file = "mods/celeste-early-fixes-1.0.3.jar"
+hash = "719d6055fd0b8c6d995806e808bfe14bc16355604666bf75e58fecff3929d426"
 
 [[files]]
 file = "mods/cgs.pw.toml"

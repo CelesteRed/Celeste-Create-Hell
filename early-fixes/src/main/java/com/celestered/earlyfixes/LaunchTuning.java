@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 /**
- * Extra JVM arguments picked per machine, handed to Relauncher before it restarts the game.
+ * Extra JVM arguments picked per machine, handed to Relauncher by {@link RelaunchNow} when it restarts the game.
  * <p>
  * Relauncher puts these <em>before</em> the launcher's own arguments, so anything the player
  * set in their launcher wins over us. That's why there's no memory (-Xmx) tuning here: the

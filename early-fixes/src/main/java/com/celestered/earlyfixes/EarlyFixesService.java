@@ -14,18 +14,22 @@ import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 
 /**
- * On NVIDIA + Windows, Sodium overwrites the process command line with
- * {@code "net.caffeinemc.sodium / net.minecraft.client.main.Main /"} so the driver stops
- * applying its Minecraft profile. Relauncher reads that same command line (GetCommandLineW)
- * to restart the game, so without this fix the restarted JVM gets garbage arguments.
- * <p>
- * Sodium's change happens while FML loads the early window, which is before any
- * transformation service's {@code onLoad}. Relauncher restarts the game in its
- * {@code initialize}, and ModLauncher always runs every {@code onLoad} before any
- * {@code initialize}, so restoring the command line here always wins the race.
- * The relaunched game applies Sodium's workaround again on its own.
+ * Runs in ModLauncher's {@code onLoad}, which always happens before any service's
+ * {@code initialize} (where Relauncher would normally restart the game). In order:
+ * <ol>
+ *   <li><b>Sodium + NVIDIA fix.</b> On NVIDIA + Windows, Sodium overwrites the process command line
+ *   with {@code "net.caffeinemc.sodium / net.minecraft.client.main.Main /"} so the driver stops
+ *   applying its Minecraft profile. Relauncher reads that same command line (GetCommandLineW) to
+ *   restart the game, so we put the real one back first. The restarted game applies Sodium's
+ *   workaround again on its own.</li>
+ *   <li><b>Restart through Relauncher ourselves</b> ({@link RelaunchNow}), with Relauncher's config
+ *   arguments (the unsup javaagent) plus {@link LaunchTuning}. We deliberately don't register
+ *   LaunchTuning as a Relauncher SPI service: Relauncher would load it through a URLClassLoader,
+ *   which on Windows keeps this jar locked for the whole session (the original process lingers
+ *   while the restarted game runs), so unsup could never update or delete it.</li>
+ * </ol>
  */
-public final class SodiumCommandLineFix implements ITransformationService {
+public final class EarlyFixesService implements ITransformationService {
     private static final String SODIUM_COMMAND_LINE = "net.caffeinemc.mods.sodium.client.platform.windows.WindowsCommandLine";
     private static final String EARLY_WINDOW_HANDLER = "net.neoforged.fml.loading.ImmediateWindowHandler";
     private static final long EARLY_WINDOW_TIMEOUT_SECONDS = 10;
@@ -39,12 +43,24 @@ public final class SodiumCommandLineFix implements ITransformationService {
 
     @Override
     public void onLoad(IEnvironment env, Set<String> otherServices) {
-        run();
+        if (done) return;
+        done = true;
+        // Inside the restarted game there is nothing to do, and Sodium's workaround must stay in place.
+        if (Boolean.getBoolean("relauncher.didRelaunch")) return;
+        Settings settings = Settings.load();
+        if (settings.restoreSodiumCommandLine) {
+            restoreSodiumCommandLine();
+        }
+        try {
+            RelaunchNow.run();
+        } catch (Throwable t) {
+            // Relauncher missing or broken: let Relauncher's own initialize() (if any) handle the restart.
+            Log.warn("Could not restart through Relauncher, leaving it to Relauncher itself: " + t);
+        }
     }
 
     @Override
     public void initialize(IEnvironment environment) {
-        run();
     }
 
     @Override
@@ -53,15 +69,9 @@ public final class SodiumCommandLineFix implements ITransformationService {
         return Collections.emptyList();
     }
 
-    private void run() {
-        if (done) return;
-        done = true;
+    private static void restoreSodiumCommandLine() {
         try {
             if (!System.getProperty("os.name", "").toLowerCase(Locale.ROOT).contains("win")) return;
-            // Inside the relaunched game Sodium's workaround must stay in place.
-            if (Boolean.getBoolean("relauncher.didRelaunch")) return;
-            if (!Settings.load().restoreSodiumCommandLine) return;
-
             Class<?> commandLine = findClass(SODIUM_COMMAND_LINE);
             if (commandLine == null) return; // Sodium not installed
             Field hook = commandLine.getDeclaredField("ACTIVE_COMMAND_LINE_HOOK");
@@ -112,7 +122,7 @@ public final class SodiumCommandLineFix implements ITransformationService {
 
     private static Class<?> findClass(String name) {
         ClassLoader[] loaders = {
-            SodiumCommandLineFix.class.getClassLoader(),
+            EarlyFixesService.class.getClassLoader(),
             Thread.currentThread().getContextClassLoader(),
             ClassLoader.getSystemClassLoader()
         };

@@ -36,7 +36,9 @@ packwiz remove <mod>                    # remove a mod
 packwiz refresh                         # ALWAYS run before committing: rebuilds index.toml hashes
 ```
 
-Then bump `version` in `pack/pack.toml`, commit and push to `main`. Players get it on their next launch. GitHub caches raw files for up to ~5 minutes, so a launch right after pushing may still see the old version.
+Then bump `version` in `pack/pack.toml`, commit and push to `main`. Players get it on their next launch.
+
+GitHub caches each raw file for up to 5 minutes. Someone who launches in the first few minutes after a push can get a mix of old and new files, and see an "Updater error". Pressing **OK** starts the game on the previous version, and the next launch picks up the update. So wait ~5 minutes after pushing before you test.
 
 Rules that keep players safe:
 - **Never push without `packwiz refresh`.** A stale `index.toml` makes unsup fail the update.
