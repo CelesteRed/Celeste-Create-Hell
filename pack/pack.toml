@@ -1,12 +1,12 @@
 name = "Celeste Create Hell"
 author = "CelesteRed"
-version = "1.0.3"
+version = "1.0.4"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "8278f55a3c3eeb89a6513909fa74a8e138bc9c0740875feb87968570b227d2c7"
+hash = "4a7ca4fcee44ff683eb019612ba088c2bac07a012b724f5a19433de5fd77e7d7"
 
 [versions]
 minecraft = "1.21.1"

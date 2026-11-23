@@ -50,11 +50,11 @@ Rules that keep players safe:
 A tiny jar in `pack/mods/`. It isn't a normal mod: it hooks into the launch before Minecraft loads.
 
 1. **Sodium + NVIDIA restart fix.** On NVIDIA cards Sodium overwrites the process command line, so the graphics driver doesn't apply its Minecraft profile. Relauncher reads that same command line to restart the game, so the restarted game would get garbage arguments. The jar puts the real command line back after the early loading window has made its OpenGL context and before Relauncher reads it. The restarted game applies Sodium's workaround again by itself.
-2. **Per-machine launch tweaks** (through Relauncher's `CommandLineProvider` API):
+2. **Restarts the game through Relauncher itself**, with Relauncher's config arguments (the unsup javaagent) plus per-machine tweaks. It runs from ModLauncher's `onLoad`, which always comes before Relauncher's own restart. It deliberately doesn't register as a Relauncher SPI provider: Relauncher would load it through a `URLClassLoader`, which on Windows locks the jar for the whole session (the original process stays alive while the restarted game runs), so unsup could never update it. The per-machine tweaks:
    - Switches to **Generational ZGC** (less stutter) on machines with 8+ CPU threads, 16 GB+ RAM and 8 GB+ given to Minecraft. It never overrides a collector the player set; two collectors would stop Java from starting.
    - On **laptops with integrated + dedicated graphics**, sets Windows' per-app GPU choice for Minecraft's Java to "high performance". It only does this when both kinds of GPU are present and the player hasn't already chosen one in *Settings > Display > Graphics*.
    - Logs a warning when the memory slider is too high (over 75% of RAM) or too low (under 6 GB).
-   - It doesn't change memory (`-Xmx`): Relauncher puts our arguments before the launcher's, so the launcher's value always wins.
+   - It doesn't change memory (`-Xmx`): Relauncher puts extra arguments before the launcher's, so the launcher's value always wins.
 
 Players can turn each part off in `config/celeste-early-fixes.properties`. The jar catches every error and falls back to launching normally.
 
