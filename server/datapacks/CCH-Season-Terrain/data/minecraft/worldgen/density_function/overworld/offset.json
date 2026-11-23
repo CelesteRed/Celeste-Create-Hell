@@ -4,7 +4,24 @@
     "type": "minecraft:cache_2d",
     "argument": {
       "type": "minecraft:add",
-      "argument1": 0.02,
+      "argument1": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": "cch:spawn_lake_distance",
+          "points": [
+            {
+              "location": 70.0,
+              "value": 0.05,
+              "derivative": 0.0
+            },
+            {
+              "location": 110.0,
+              "value": 0.11,
+              "derivative": 0.0
+            }
+          ]
+        }
+      },
       "argument2": {
         "type": "minecraft:add",
         "argument1": {
