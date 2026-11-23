@@ -1937,8 +1937,8 @@ hash = "bf29c048059a9d0b6ff0c4fd3bf6995ffc9637239fa428571a09cbe30cb2237a"
 metafile = true
 
 [[files]]
-file = "mods/celeste-early-fixes-1.0.0.jar"
-hash = "e78fd5709eccf8eef49601c0a3f08eca9382beeb9de6b9bd0c3ca13cdd23dd0b"
+file = "mods/celeste-early-fixes-1.0.1.jar"
+hash = "ff760913b15103d6d8f64d26df01f18bdc9181288387f431edaf375b7e6c9bf1"
 
 [[files]]
 file = "mods/cgs.pw.toml"
@@ -2453,11 +2453,6 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
-metafile = true
-
-[[files]]
-file = "mods/figura.pw.toml"
-hash = "eedcb7fff4e1e6e1e9b81920521277596b0907b0de377f06dc306d2d6624c69d"
 metafile = true
 
 [[files]]

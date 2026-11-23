@@ -28,7 +28,7 @@ import java.util.concurrent.TimeUnit;
 public final class SodiumCommandLineFix implements ITransformationService {
     private static final String SODIUM_COMMAND_LINE = "net.caffeinemc.mods.sodium.client.platform.windows.WindowsCommandLine";
     private static final String EARLY_WINDOW_HANDLER = "net.neoforged.fml.loading.ImmediateWindowHandler";
-    private static final long EARLY_WINDOW_TIMEOUT_SECONDS = 15;
+    private static final long EARLY_WINDOW_TIMEOUT_SECONDS = 10;
 
     private boolean done;
 
@@ -70,9 +70,11 @@ public final class SodiumCommandLineFix implements ITransformationService {
 
             // Let the early window finish creating its OpenGL context first. The NVIDIA driver
             // reads the command line at that moment, which is the whole point of Sodium's change.
+            long start = System.nanoTime();
             waitForEarlyWindow();
             commandLine.getMethod("resetCommandLine").invoke(null);
-            Log.info("Restored the command line Sodium replaced for its NVIDIA workaround, so Relauncher sees the real launch arguments");
+            Log.info("Restored the command line Sodium replaced for its NVIDIA workaround, so Relauncher sees the real "
+                + "launch arguments (waited " + (System.nanoTime() - start) / 1_000_000 + " ms for the early window)");
         } catch (Throwable t) {
             Log.warn("Could not restore Sodium's command line: " + t);
         }
@@ -86,15 +88,22 @@ public final class SodiumCommandLineFix implements ITransformationService {
             providerField.setAccessible(true);
             Object provider = providerField.get(null);
             if (provider == null) return;
+            // Only the one-shot init future: FML's window also holds periodic "tick" futures that
+            // never complete, and waiting on those would just burn the whole timeout.
             for (Class<?> c = provider.getClass(); c != null && c != Object.class; c = c.getSuperclass()) {
-                for (Field f : c.getDeclaredFields()) {
-                    if (Modifier.isStatic(f.getModifiers()) || !Future.class.isAssignableFrom(f.getType())) continue;
-                    f.setAccessible(true);
-                    Object future = f.get(provider);
-                    if (future instanceof Future) {
-                        ((Future<?>) future).get(EARLY_WINDOW_TIMEOUT_SECONDS, TimeUnit.SECONDS);
-                    }
+                Field f;
+                try {
+                    f = c.getDeclaredField("initializationFuture");
+                } catch (NoSuchFieldException e) {
+                    continue;
                 }
+                if (Modifier.isStatic(f.getModifiers()) || !Future.class.isAssignableFrom(f.getType())) return;
+                f.setAccessible(true);
+                Object future = f.get(provider);
+                if (future instanceof Future) {
+                    ((Future<?>) future).get(EARLY_WINDOW_TIMEOUT_SECONDS, TimeUnit.SECONDS);
+                }
+                return;
             }
         } catch (Throwable t) {
             // A missing or slow early window just means we restore a little earlier.
