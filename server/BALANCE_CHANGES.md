@@ -65,3 +65,20 @@ CCH charges for every shaft (4), cogwheel (6), gearbox (1) and gearshift (4). Th
 - The old mods folder: `/home/celeste/backups/old-mods-2026-11-23/`.
 
 To undo a balance change, edit `world/datapacks/CCH-Reforged-Balance` or the named config file, then run `/reload` (datapacks) or restart (configs).
+
+## 6. Finite water (season change, 2026-11-23)
+Flowing Fluids was already on, so water was finite *except* in Ocean, River and Swamp biomes, which acted as infinite sources and refilled instantly. Rivers also ran water wheels for free with no flow.
+
+| Setting (`config/flowing_fluids.json`) | Before | After | Effect |
+|---|---|---|---|
+| `oceanRiverSwampRefillChance` | 1.0 | **0.0** | Oceans, rivers and swamps no longer refill themselves. Water you take is gone; only rain refills it, slowly (`rainRefillChance` stays 0.01). |
+| `infiniteWaterBiomeDrainSurfaceChance` | 0.5 | **1.0** | Taking water from those biomes always lowers the water level |
+| `infiniteWaterBiomeNonConsumeChance` | 0.0 | 0.0 | (unchanged: taking water always uses it up) |
+| `create_waterWheelMode` | REQUIRE_FLOW_OR_RIVER | **REQUIRE_FLOW** | Water wheels need actually flowing water everywhere; no free river power |
+| `create_infinitePipes` | false | false | (unchanged: Create pipes move water, they don't create it) |
+
+Also set on the world: `/gamerule waterSourceConversion false`, so vanilla's "two sources make a third" is off too (`lavaSourceConversion` was already false).
+
+Create's own settings were already finite and are unchanged: hose pulleys never treat a lake as infinite (`hosePulleyBlockThreshold = -1`), and `bottomlessFluidMode = DENY_ALL`.
+
+Note: a huge pump setup draining an ocean will lag the server while the water moves. This is a known Flowing Fluids limitation.
