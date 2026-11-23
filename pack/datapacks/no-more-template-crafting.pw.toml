@@ -1,0 +1,13 @@
+name = "No More Template Crafting"
+filename = "NoMoreTemplateCrafting.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/llma9c5t/versions/mnUzPd9a/NoMoreTemplateCrafting.zip"
+hash-format = "sha512"
+hash = "b1f83ade5b70742a4dce456b55a8dead57341693cfef591f93eecc0c1102470b2832ceadc8d02de52ee78d1e9604136c3058d8ecc4a3b52cdc21e9952794ed02"
+
+[update]
+[update.modrinth]
+mod-id = "llma9c5t"
+version = "mnUzPd9a"

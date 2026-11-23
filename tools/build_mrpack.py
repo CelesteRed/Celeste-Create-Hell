@@ -76,6 +76,26 @@ def main():
             "fileSize": vf["size"],
         })
 
+    # unsup.jar sits in the instance root. If this exact file is on Modrinth (it should be),
+    # reference it as a download instead of bundling it.
+    unsup_bytes = (LAUNCHER / "unsup.jar").read_bytes()
+    unsup_sha512 = hashlib.sha512(unsup_bytes).hexdigest()
+    req = urllib.request.Request("https://api.modrinth.com/v2/version_files",
+                                 data=json.dumps({"hashes": [unsup_sha512], "algorithm": "sha512"}).encode(),
+                                 headers={**UA, "Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        unsup_version = json.loads(r.read()).get(unsup_sha512)
+    bundle_unsup = unsup_version is None
+    if unsup_version:
+        uf = next(f for f in unsup_version["files"] if f["hashes"]["sha512"] == unsup_sha512)
+        files.append({
+            "path": "unsup.jar",
+            "hashes": {"sha1": uf["hashes"]["sha1"], "sha512": unsup_sha512},
+            "env": {"client": "required", "server": "required"},
+            "downloads": [uf["url"]],
+            "fileSize": uf["size"],
+        })
+
     index_json = {
         "formatVersion": 1,
         "game": "minecraft",
@@ -92,9 +112,11 @@ def main():
         z.writestr("modrinth.index.json", json.dumps(index_json, indent=2))
         for rel in raw:
             z.write(PACK / rel, f"overrides/{rel}")
-        z.write(LAUNCHER / "unsup.jar", "overrides/unsup.jar")
+        if bundle_unsup:
+            z.write(LAUNCHER / "unsup.jar", "overrides/unsup.jar")
         z.write(LAUNCHER / "unsup.ini", "overrides/unsup.ini")
-    print(f"Wrote {out} ({len(files)} downloads, {len(raw) + 2} override files)")
+    print(f"Wrote {out} ({len(files)} downloads, {len(raw) + 1 + bundle_unsup} override files"
+          f"{', unsup.jar bundled (not on Modrinth)' if bundle_unsup else ''})")
     if skipped:
         print("Not in the .mrpack (unsup fetches them on first launch): " + ", ".join(sorted(skipped)))
 

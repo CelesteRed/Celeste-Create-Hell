@@ -15,7 +15,7 @@ Modrinth App starts the game
 | Piece | What it does |
 |---|---|
 | `pack/` | The modpack in [packwiz](https://packwiz.infra.link/) format. unsup reads `pack/pack.toml` from the `main` branch. |
-| `launcher/unsup.jar`, `launcher/unsup.ini` | The updater ([unsup](https://git.sleeping.town/exa/unsup) 1.2.7) and its settings: pack address, Celeste colours and icon, `behavior=semi`. They sit in each player's instance folder. They are **not** part of `pack/`, so a bad push can never break the updater's own settings. |
+| `launcher/unsup.jar`, `launcher/unsup.ini` | The updater ([unsup](https://modrinth.com/mod/unsup) 1.2.8, from Modrinth) and its settings: pack address, Celeste colours and icon, `behavior=semi`. They sit in each player's instance folder. They are **not** part of `pack/`, so a bad push can never break the updater's own settings. |
 | `pack/config/relauncher/config.cfg` | Tells [Relauncher](https://modrinth.com/mod/relauncher) to restart Java with unsup attached. The Modrinth App can't set Java arguments from a modpack, so this is what makes unsup run. |
 | `early-fixes/` | Source of `celeste-early-fixes`, our own small jar (see below). The built jar lives in `pack/mods/`. |
 | `tools/build_mrpack.py` | Builds the `.mrpack` new players import. |
@@ -81,5 +81,6 @@ The pack also lists server-only mods (`side = "server"`). The server can sync fr
 
 ## Notes
 
-- `pack/mods/shitfixes.pw.toml` downloads from the Starsoul Industries pack's server (made by its developer). If that link ever dies, remove the file and `packwiz refresh`.
-- `CustomWindowTitle-NeoForge-1.21-1.4.0.jar` is the NeoForge half of Custom Window Title (Unlicense). It's extracted from the multiloader jar, so Sinytra Connector can't also load its Fabric half.
+- Every mod, resource pack, shader and datapack in `pack/` is downloaded from Modrinth. The one exception is `celeste-early-fixes` (our own jar). The only other bundled files are configs, the emotes in `emotes/`, and the shader settings `.txt` files.
+- `datapacks/` holds three world datapacks. `moonlight-global-datapacks/` holds No Void Structures, which Moonlight loads into every world. It replaces the "mod" version of No Void Structures, which only existed because the Modrinth App wraps datapacks as mods.
+- Server-only mods that aren't on Modrinth (Duplicationless and Fluidium from CurseForge, plus Starsoul's own server mods) aren't in the pack. Add them to the server by hand.

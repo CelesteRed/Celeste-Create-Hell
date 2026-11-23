@@ -1,0 +1,13 @@
+name = "No Void Structures"
+filename = "No_Void_Structures_2.0.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/iWMeHtdv/versions/5vfnXshN/No_Void_Structures_2.0.1.zip"
+hash-format = "sha512"
+hash = "0d330cb19f581d2ae60100838da2a68772a1d7608fdfcc5e34a432605e2f626751063f0eb1555c809b2311c654f9c5199543d6839933ff96dc0b34f2b8da0a4f"
+
+[update]
+[update.modrinth]
+mod-id = "iWMeHtdv"
+version = "5vfnXshN"

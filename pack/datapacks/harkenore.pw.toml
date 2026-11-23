@@ -1,0 +1,13 @@
+name = "Harken Ore Generation"
+filename = "HarkenOre_0.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Tlj4MBuX/versions/P32bWA2d/HarkenOre_0.1.zip"
+hash-format = "sha512"
+hash = "2caa83e693105e0c86ed2616a5bce3997866fad79c11028004c8d935a9380d0bbbeeb9a4b06f3ad84b4aa6d7f49670fdab2e48ec746e809d771b79aacc3ca0b3"
+
+[update]
+[update.modrinth]
+mod-id = "Tlj4MBuX"
+version = "P32bWA2d"

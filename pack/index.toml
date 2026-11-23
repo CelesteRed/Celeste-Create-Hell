@@ -1617,16 +1617,19 @@ file = "config/zombieawareness/PlayerRulesAndLists.toml"
 hash = "bd60f14054777a8ff406e6033adf965f861c3faa347826f0022532eeabb23c09"
 
 [[files]]
-file = "datapacks/HarkenOre_0.1.zip"
-hash = "fd65f5447e32ce10ba68c3bb11cb95432d0ef6f02e0a7191904f64432c3de3fa"
+file = "datapacks/harkenore.pw.toml"
+hash = "1278d0140920c2409eb4af9ebde65e839e72beb9b216a4b3aef008b22e1528bd"
+metafile = true
 
 [[files]]
-file = "datapacks/HigherHeightsUltimateDefault_1.21-1.21.1.zip"
-hash = "e42097f7be116da55dec5bdce01e18b912dc508ea5b9e5eb74f71375b7418556"
+file = "datapacks/higher-heights-datapack.pw.toml"
+hash = "8deab2e67cca139cf93f89a10dceae78416ae01b0e6360ff1ea96d2cfec15967"
+metafile = true
 
 [[files]]
-file = "datapacks/NoMoreTemplateCrafting.zip"
-hash = "f45996d06d3dbf8c884bdff39eb0c8dc510b7c62802f09dabdd1381551389cbe"
+file = "datapacks/no-more-template-crafting.pw.toml"
+hash = "bfdaeec2d437c13b773e0a1157666cdba5db999395b8be1060da0b542e5f5c40"
+metafile = true
 
 [[files]]
 file = "emotes/Animan Walk.emotecraft"
@@ -1756,10 +1759,6 @@ hash = "018bb8303d9de9ebf12b45bdcda2784b9f57b9b9dd530e5cab548b7c098b0dbd"
 file = "mods/3dskinlayers.pw.toml"
 hash = "b3b67f83faf9dcc4985b7a13fa8affb71062461d271f80cc0958652df9f3126b"
 metafile = true
-
-[[files]]
-file = "mods/CustomWindowTitle-NeoForge-1.21-1.4.0.jar"
-hash = "f7a96de0666120a5bfd79278c9b976c6b7494478c25bd07c7f1e4b4477c31657"
 
 [[files]]
 file = "mods/achievements-optimizer.pw.toml"
@@ -2296,6 +2295,11 @@ hash = "e622857e271e0ebd3d80f84f8230474d76f0150354cb06832deac2134448cbcb"
 metafile = true
 
 [[files]]
+file = "mods/custom-window-title.pw.toml"
+hash = "0ef987c3862168f8af8a591105c85855a557c1e9ee2b08fea4dd3bffb6c77572"
+metafile = true
+
+[[files]]
 file = "mods/datapatched.pw.toml"
 hash = "facacf55d081a743da61883d098ae426969a78e597908af1311ff35b200ac898"
 metafile = true
@@ -2343,11 +2347,6 @@ metafile = true
 [[files]]
 file = "mods/draggable-lists.pw.toml"
 hash = "50de1919e6cc3104a4a2557b0644c15f5a56722cf76a19b194ec6ecf61bcae13"
-metafile = true
-
-[[files]]
-file = "mods/duplicationless.pw.toml"
-hash = "a14a8dbc242c21d65d61e9680980ca62dc668f9c398d15e9a0b5389055256f60"
 metafile = true
 
 [[files]]
@@ -2483,11 +2482,6 @@ metafile = true
 [[files]]
 file = "mods/flowing-fluids.pw.toml"
 hash = "10b5c19f7d9db9680dce516bda939f016e2e34c05dec64b0c72bd8b07c3a5b92"
-metafile = true
-
-[[files]]
-file = "mods/fluidium.pw.toml"
-hash = "af3df6e04fa6f7ee9adf708e87ccefe42ffcb64add8bd80b09658433a8560a74"
 metafile = true
 
 [[files]]
@@ -2926,10 +2920,6 @@ hash = "c5e7e0a3de03c138f587fc56dca70013978677e0cde2ad19024dc798178a49bd"
 metafile = true
 
 [[files]]
-file = "mods/no-void-structures-2.0.1.jar"
-hash = "e1a2fba64bc02f1cbd58ed3d408702ee1e1200403a8d8f50dff8e82ebebb9551"
-
-[[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "e0f1cef5482844e62c6fc3c7771fc9ef8385c47092248f76aa1fa271220b24e8"
 metafile = true
@@ -3172,11 +3162,6 @@ metafile = true
 [[files]]
 file = "mods/shatterbyte-lib.pw.toml"
 hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
-metafile = true
-
-[[files]]
-file = "mods/shitfixes.pw.toml"
-hash = "092c177253ac8e76e450a7f2ed855497f6fa17351098bf87da6757fae661107c"
 metafile = true
 
 [[files]]
@@ -3447,6 +3432,11 @@ metafile = true
 [[files]]
 file = "mods/zombie-awareness.pw.toml"
 hash = "25f44960f8a331cafb3446c9388f959989aa01bd53a17a38766967f6cf20bb60"
+metafile = true
+
+[[files]]
+file = "moonlight-global-datapacks/no-void-structures.pw.toml"
+hash = "95b395cc7ad69db97e1e742f00372c84c400b50b5b6ee037f6020dc30bea2a09"
 metafile = true
 
 [[files]]
