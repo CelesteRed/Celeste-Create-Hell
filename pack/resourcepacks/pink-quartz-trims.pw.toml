@@ -1,0 +1,13 @@
+name = "Pink Quartz Trims"
+filename = "pink_quartz_trims-2.0.1-resourcepack-1.21.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/okqEA8FZ/versions/iuEAUMwo/pink_quartz_trims-2.0.1-resourcepack-1.21.0.zip"
+hash-format = "sha512"
+hash = "3f5f387d15b5a77e87aea3e4c90dc9a3b783abaf94f02ce8329a1d671bf972d79c6cf37024b7251cdad576e60211dac3a70d12ead8621b774b3bfccc9c07148b"
+
+[update]
+[update.modrinth]
+mod-id = "okqEA8FZ"
+version = "iuEAUMwo"

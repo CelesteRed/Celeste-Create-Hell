@@ -1,0 +1,13 @@
+name = "More Useful Copper"
+filename = "more_useful_copper-merged-1.21.1-3.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nKAkZnor/versions/smMXLpHk/more_useful_copper-merged-1.21.1-3.0.0.jar"
+hash-format = "sha512"
+hash = "88b99afc4b84ed1a32a3ebdfd069b701b33a85193317b084c1a7542eb590d5505f2c6161f825bb5a37a72050b9913796d4c0473d1a1c7720f5ec791ddc57f2ce"
+
+[update]
+[update.modrinth]
+mod-id = "nKAkZnor"
+version = "smMXLpHk"

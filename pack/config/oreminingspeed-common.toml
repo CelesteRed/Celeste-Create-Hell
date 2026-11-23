@@ -1,0 +1,6 @@
+#Mining speed multipliers. 1.0 keeps default speed.
+[mining]
+	#Configure block speed multipliers in one list.
+	#Use exact IDs ("minecraft:deepslate=2.0") or wildcard IDs ("minecraft:*_ore=0.8").
+	#Rules are applied top-to-bottom; later matching rules override earlier ones.
+	block_multipliers = ["minecraft:deepslate=0.3", "minecraft:tuff=0.6", "minecraft:*_ore=0.8", "minecraft:diamond_ore=0.2", "minecraft:deepslate_*_ore=0.1", "create:deepslate_zinc_ore=0.6"]

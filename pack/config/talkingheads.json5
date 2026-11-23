@@ -1,0 +1,11 @@
+{
+  "scaleZ": 0.15,
+  "helmetHideWhileTalking": false,
+  "helmetShowDelay": 0.15,
+  "scaleX": 0.15,
+  "scaleY": 0.15,
+  "enableMod": true,
+  "usePlasmoVoice": false,
+  "useSimpleVoiceChat": true,
+  "removedVolume": 0.002
+}

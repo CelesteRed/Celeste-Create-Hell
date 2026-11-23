@@ -1,0 +1,13 @@
+name = "Rising Toxicity"
+filename = "risingtoxicity-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/g8AKtZYc/versions/ph4mv6WT/risingtoxicity-1.1.2.jar"
+hash-format = "sha512"
+hash = "801458f5fcddeb43083e0bb1e53e4bd42c0ae033f15f81fef196ba4d37179f177d0679aee9655e489a512d635dd277b106ccb3480264861d428b68f433d52075"
+
+[update]
+[update.modrinth]
+mod-id = "g8AKtZYc"
+version = "ph4mv6WT"

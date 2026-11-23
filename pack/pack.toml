@@ -1,0 +1,13 @@
+name = "Celeste Create Hell"
+author = "CelesteRed"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ca458483591556f4f4b30205f1389090b8e42e3f2acff62cf7d3285f284c3f39"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.267"

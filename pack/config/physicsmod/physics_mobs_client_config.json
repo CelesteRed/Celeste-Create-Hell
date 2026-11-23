@@ -1,0 +1,2636 @@
+{
+  "customizedMobs": [
+    {
+      "identifier": "naturalist:moose",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:panda",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:fiddler_crab",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:ghast",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:snowball",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:mauve_stinger",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "immersive_paintings:graffiti",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "farm_and_charm:chair",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:discus",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "crittersandcompanions:leaf_insect",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:pufferfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:fireball",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "supplementaries:cannonball",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:skeleton_horse",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:oscar",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:tortoise",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:giant",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:blue_jellyfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "cafesbirding:jackdaw",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:area_effect_cloud",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:crown_jellyfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "vinery:dark_cherry_chest_boat",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:wither_skeleton",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:stray",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "faunify:opossum",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:barrel_jellyfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:flashlight_fish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:parrot",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:pleco",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:experience_bottle",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "cafesbirding:spiderhunter",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:bat",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:cardinal",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "create:carriage_contraption",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:butterfly",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:leash_knot",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "immersive_aircraft:bamboo_hopper",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "another_furniture:seat",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "crittersandcompanions:grappling_hook",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:tetra",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:lobster",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:trident",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:villager",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:pale_oak_chest_boat",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:lightfoot_crab",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:snailfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:wandering_trader",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "immersive_paintings:glow_graffiti",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "immersive_aircraft:warship",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:glow_squid",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:silverfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:goldfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "cafesbirding:spiderhunter_egg_projectile",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:giant_isopod",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:chicken",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:coelacanth",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:cod",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "faunify:hedgehog",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:sea_slug",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "interiors:big_seat",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:lion",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:sea_bass",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "immersive_aircraft:gyrodyne",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "crittersandcompanions:jumping_spider",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "faithfulmace:wind_charge",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:john_dory",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:sparrow",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:cat",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:spectral_arrow",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:bass",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:egg",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:anglerfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:eye_of_ender",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:firefly_squid",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:duck",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "immersive_paintings:glow_painting",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:pig",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "farm_and_charm:cart",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:ocean_sunfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:drowned",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:wolf",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:seadragon",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "faunify:weasel",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:danio",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:damselfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:tuna",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:betta",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:bee",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:rattlesnake",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:allay",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:experience_orb",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:moray_eel",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "faunify:ringtailcat",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:armor_stand",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "immersive_aircraft:cargo_airship",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:spider_crab",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:carp",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "vinery:dark_cherry_boat",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:vex",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "farmersdelight:rotten_tomato",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:command_block_minecart",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:karcinogen",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "supplementaries:bomb",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "crittersandcompanions:dumbo_octopus",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:herring",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:axolotl",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:snow_golem",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:creeper",
+      "Physics Type": 2,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:shrimp",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:barreleye",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:decorator_crab",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "apugli:custom_area_effect_cloud",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "vinery:chair",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "supplementaries:slingshot_projectile",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "supplementaries:dispenser_minecart",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "apugli:custom_projectile",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:stingray",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:basking_shark",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:bull_shark",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "cafesbirding:jackdaw_egg_projectile",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:alligator",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:item",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:cow",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:rhino",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:mackerel",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:flying_fish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "create:crafting_blueprint",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "supplementaries:falling_sack",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:witch",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "railways:conductor",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "moborigins:origin_slime",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "amendments:medium_dragon_fireball",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:otter",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:lions_mane_jellyfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:piglin",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:llama_spit",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:wither",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:yeti_crab",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "terraform:boat",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:duck_egg",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "faunify:silkmoth",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:potion",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:tiger_shark",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:pale_oak_boat",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:starfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:seahorse",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:parrotfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "railways:jukeboxcart",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:lionfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "handcrafted:fancy_painting",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:stonefish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:sunfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "faunify:mouse",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:whale_shark",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:hippo",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:zoglin",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:vampire_crab",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "supplementaries:red_merchant",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:lantern_shark",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:zombie",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "faunify:leafsheep",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:wither_skull",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "crittersandcompanions:sea_bunny",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:hermit_crab",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "cafesbirding:parrot_egg_projectile",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:item_display",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "create:contraption",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:horse",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:tnt_minecart",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:glow_item_frame",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:bluejay",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:tnt",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:dragonfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:lightning_bolt",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:pillager",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "guardvillagers:guard",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "supplementaries:slimeball_projectile",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:zombie_villager",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "man_of_many_planes:economy_plane",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "doapi:chair",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:deer",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:camel",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:trader_llama",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "crittersandcompanions:ferret",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:dolphin",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:sea_cucumber",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:arrow_squid",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:tropical_fish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:warden",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "supplementaries:hat_stand",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:pearlfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "gravestones:gravestone_skeleton",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "supplementaries:pearl_marker",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:coral_snake",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "origins:enderian_pearl",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:text_display",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:firework_jellyfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:ender_pearl",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:moon_jellyfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:big_red_jellyfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "crittersandcompanions:dragonfly",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "faunify:fennec",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:chest_minecart",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "crittersandcompanions:koi_fish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "faunify:quill",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:zebra",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:hound_shark",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:surgeonfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:giraffe",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:fishing_bobber",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:mooshroom",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "vinery:mule",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:sniffer",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:needlefish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:donkey",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:tadpole",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:lizard",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:sheep",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:goat",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:robin",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:dragon_fireball",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:coconut_crab",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:nautilus",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "immersive_aircraft:quadrocopter",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:mule",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "zombieawareness:scent",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:cave_spider",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:furnace_minecart",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:ravager",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "adorablehamsterpets:hamster",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:phantom",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "cafesbirding:sparrow_egg_projectile",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:snake",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "create_enchantment_industry:hyper_experience_bottle",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "faunify:chinchilla",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:piglin_brute",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:zombified_piglin",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:boxfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:frilled_shark",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:sea_nettle",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:cepheidae_jellyfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:great_white_shark",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:skeleton",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:caterpillar",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "crittersandcompanions:shima_enaga",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "create:gantry_contraption",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "cafesbirding:capercaillie",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:piranha",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:golden_dorado",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "supplementaries:brick_projectile",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:boar",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:enderman",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:opah",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:polar_bear",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "handcrafted:seat",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "immersive_paintings:painting",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:oarfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:pupfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:zombie_horse",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:ender_dragon",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:evoker_fangs",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "farm_and_charm:plow",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:small_fireball",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "cafesbirding:sparrow",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:guardian",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:block_display",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:marker",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:elder_guardian",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:painting",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:blowfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:blaze",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "vinery:wandering_winemaker",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "valhelsia_furniture:seat",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:mahi",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:spider",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:slime",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:karkinos",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:african_butterflyfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:shulker",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:octopus",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:creaking",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "create:seat",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:magma_cube",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "faunify:dust_powder",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:hammerhead_shark",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:endermite",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "create:potato_projectile",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "immersive_aircraft:bullet",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:shiner",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:armadillo",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:triggerfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:ghost_crab",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "man_of_many_planes:scarlet_biplane",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:boat",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:item_frame",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "amendments:medium_fireball",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "cafesbirding:capercaillie_egg_projectile",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:arrow",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:end_crystal",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "amendments:ring_effect_cloud",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:catfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:bear",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:crayfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "distantfriends:friend",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:clownfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:iron_golem",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:trout",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:finch",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:barracuda",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:wrasse",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:rockfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:flower_crab",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:ratfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "terraform:chest_boat",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:tiger_barb",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:turtle",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:umbrella_octopus",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:cosmic_jellyfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:horseshoe_crab",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:copper_golem",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:canary",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "immersive_aircraft:airship",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "immersive_aircraft:biplane",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "supplementaries:rope_arrow",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:falling_block",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:dungeness_crab",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:vulture",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:shulker_bullet",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:fox",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:strider",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:husk",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:thresher_shark",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "supplementaries:falling_ash",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:spawner_minecart",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "supplementaries:falling_urn",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:box_jellyfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:squirrelfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:minecart",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:vindicator",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:elephant",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:squid",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:llama",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:illusioner",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:hopper_minecart",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:snail",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:cuttlefish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "railways:benchcart",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:chest_boat",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:gourami",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:firefly",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:happy_ghast",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:sea_urchin",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "create:super_glue",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:karcinoma",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:nomura_jellyfish",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:sea_angel",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "crittersandcompanions:otter",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:vampire_squid",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "create:stationary_contraption",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:player",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:dragonfly",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "hybrid-aquatic:manta_ray",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:frog",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:ocelot",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:rabbit",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "amendments:falling_lantern",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:firework_rocket",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "farm_and_charm:rotten_tomato",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:evoker",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "crittersandcompanions:red_panda",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "naturalist:lizard_tail",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "create_enchantment_industry:hyper_experience_orb",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "immersive_aircraft:tiny_tnt",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:hoglin",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:interaction",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    },
+    {
+      "identifier": "minecraft:salmon",
+      "Physics Type": 5,
+      "Lifetime": 100.0,
+      "Lifetime Variance": 30.0,
+      "Animation": -1
+    }
+  ]
+}

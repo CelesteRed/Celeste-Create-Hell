@@ -1,0 +1,4 @@
+# index.toml stores a hash of every file in pack/. Line-ending conversion would change the
+# bytes GitHub serves and break those hashes, so git must store pack/ files exactly as-is.
+pack/** -text
+launcher/** -text

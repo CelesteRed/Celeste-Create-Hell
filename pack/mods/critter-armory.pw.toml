@@ -1,0 +1,13 @@
+name = "Critter Armory"
+filename = "critterarmory-1.21.1-0.6.5-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/eDysihLO/versions/r6dnL61T/critterarmory-1.21.1-0.6.5-neoforge.jar"
+hash-format = "sha512"
+hash = "d3a61a4c6ceee3c3b2139e478eafcd9309738424ea2edb0b172cb42448aac83e19beef6af3eb664608aabf61548fcb3cbb29af71668ae869f6e9fb76d2f6c833"
+
+[update]
+[update.modrinth]
+mod-id = "eDysihLO"
+version = "r6dnL61T"

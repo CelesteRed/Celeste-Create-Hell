@@ -1,0 +1,13 @@
+name = "Trims to Tokens"
+filename = "Trims To Tokens.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/SmLTxMhw/versions/CwT2Ra9I/Trims%20To%20Tokens.zip"
+hash-format = "sha512"
+hash = "e055f16e514febbdcbc8a4e1a0128b7f143d749f07f4401988e0168c3b46a78dafbc365d68af4ed72189f9782241c3861df22b78486f599e50fcbe5fe488bc12"
+
+[update]
+[update.modrinth]
+mod-id = "SmLTxMhw"
+version = "CwT2Ra9I"

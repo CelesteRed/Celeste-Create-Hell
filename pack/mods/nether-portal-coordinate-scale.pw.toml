@@ -1,0 +1,13 @@
+name = "Nether Portal Coordinate Scale"
+filename = "netherportalcoordinatescale-neoforge-1.21.1-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Hv18c1Ah/versions/a30jHdAZ/netherportalcoordinatescale-neoforge-1.21.1-1.0.2.jar"
+hash-format = "sha512"
+hash = "0166d6e6d8b198df605e8e1d2d17871676090763276ce3308de5d33441da62d2abd911af67a04fb999948550612048826a159b4f3382b2c917414f8fb7571197"
+
+[update]
+[update.modrinth]
+mod-id = "Hv18c1Ah"
+version = "a30jHdAZ"

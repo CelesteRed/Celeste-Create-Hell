@@ -1,0 +1,13 @@
+name = "Hot-Reload Resource Packs Forked"
+filename = "hot_reload_resource_packs-neoforge-1.21.1-1.2.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/KsOce7sT/versions/FcRvCb1d/hot_reload_resource_packs-neoforge-1.21.1-1.2.0.jar"
+hash-format = "sha512"
+hash = "ff2473a18983ccb55f2fe08a8fc87efe82bbd907f9730f764ff5e7def19213df3b5e48ec1208e61ae7729ea11b5ef6df266f9f5288094c5a566926264b1f8211"
+
+[update]
+[update.modrinth]
+mod-id = "KsOce7sT"
+version = "FcRvCb1d"

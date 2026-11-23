@@ -1,0 +1,13 @@
+name = "GUI Clock"
+filename = "guiclock-1.21.1-5.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/g1yXisD2/versions/sH6zEoEV/guiclock-1.21.1-5.1.jar"
+hash-format = "sha512"
+hash = "2d81726d5f789b8a2f1e90c038541769d1b7db6dd76635d3591fe758ff4c261cf17ffad07e3ca5faa7198db7a7c2593285748c171e7250540b11782db2581930"
+
+[update]
+[update.modrinth]
+mod-id = "g1yXisD2"
+version = "sH6zEoEV"

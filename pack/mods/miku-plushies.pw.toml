@@ -1,0 +1,13 @@
+name = "Miku Plushies"
+filename = "miku_plushie-neoforge-1.21.1-3.0.0-rc1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LnqZM7XU/versions/iPnDwq64/miku_plushie-neoforge-1.21.1-3.0.0-rc1.jar"
+hash-format = "sha512"
+hash = "e00c37ad90d07804cd04bc146352702f06452420054d1b44da447b2537545a108a0cec782c2ed3836fadb85b40d4440ab9f014d2d03c5b74c183f090cb6b8f08"
+
+[update]
+[update.modrinth]
+mod-id = "LnqZM7XU"
+version = "iPnDwq64"

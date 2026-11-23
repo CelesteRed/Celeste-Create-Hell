@@ -1,0 +1,13 @@
+name = "Random Shulker Colours"
+filename = "randomshulkercolours-1.21.1-3.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mT4tJQIo/versions/FrdzHUb2/randomshulkercolours-1.21.1-3.5.jar"
+hash-format = "sha512"
+hash = "155fe46468125c440ecec709de7d786817e70553e5002e2337e3a5ca51dbf7ad8b7e01b3331b808134d6e16ee15a982291e6d43e6835915eb5d21aa84c6dd195"
+
+[update]
+[update.modrinth]
+mod-id = "mT4tJQIo"
+version = "FrdzHUb2"

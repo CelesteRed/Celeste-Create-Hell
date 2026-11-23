@@ -1,0 +1,13 @@
+name = "Higher Snow Lines"
+filename = "HigherSnowLines_v1.0.2_mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AG9yy7ky/versions/EeWrGV8L/HigherSnowLines_v1.0.2_mc1.21.1.jar"
+hash-format = "sha512"
+hash = "d86b48d3f561405457e7e50f81a7d7bfb661a9acff5bd3b652c55eacc065e1d3a092988f08091f13732e8d7c924a613f75e9eda9432c3e75e9ccf202a18fab03"
+
+[update]
+[update.modrinth]
+mod-id = "AG9yy7ky"
+version = "EeWrGV8L"

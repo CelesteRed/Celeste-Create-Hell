@@ -1,0 +1,13 @@
+name = "Free Look or Perspective"
+filename = "free_look_neoforge 1.21.0 - 1.21.6 V11.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/cebVsgGl/versions/E0elsBUH/free_look_neoforge%201.21.0%20-%201.21.6%20V11.jar"
+hash-format = "sha512"
+hash = "1d785907b34f86fe22728f6d4c190c6fcd3a81ebfcd262f0d47826df7a51fd291f4f131c3b1348609ae3d07ca948953728f4993795d1e2210f3ddb455dc858d1"
+
+[update]
+[update.modrinth]
+mod-id = "cebVsgGl"
+version = "E0elsBUH"

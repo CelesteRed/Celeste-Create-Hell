@@ -1,0 +1,13 @@
+name = "Lucipo's Hoplite PvP Pack - Cosmic Pink"
+filename = "Lucipo's Hoplite Pack - Cosmic Pink.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/SLWI8kC3/versions/rOHhtlP0/Lucipo%27s%20Hoplite%20Pack%20-%20Cosmic%20Pink.zip"
+hash-format = "sha512"
+hash = "ff951206541266d6288cee7b0ae0faec4ce0ce2b53a8c996c25b2e6c4db8b7db5e55d3108c476cbd7ec207c8775328f79f1479f20b279b9cadce916af4183158"
+
+[update]
+[update.modrinth]
+mod-id = "SLWI8kC3"
+version = "rOHhtlP0"
