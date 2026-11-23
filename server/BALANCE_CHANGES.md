@@ -82,3 +82,6 @@ Also set on the world: `/gamerule waterSourceConversion false`, so vanilla's "tw
 Create's own settings were already finite and are unchanged: hose pulleys never treat a lake as infinite (`hosePulleyBlockThreshold = -1`), and `bottomlessFluidMode = DENY_ALL`.
 
 Note: a huge pump setup draining an ocean will lag the server while the water moves. This is a known Flowing Fluids limitation.
+
+## 7. Removed Create Dupe Fix (server-only)
+It calls `Thread.getStackTrace()` every time any block checks whether it can survive (flowers, grass, torches, ...). That made world generation crawl at under 1 chunk per second, and it slows every block update on the live server. Removed from the server and the pack.

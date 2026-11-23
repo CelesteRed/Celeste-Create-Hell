@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "supported_formats": [
+      48,
+      48
+    ],
+    "description": "Celeste Create Hell season terrain: ~0.5% surface water (about 6 lakes inside the 2k border), thinner rivers, smaller swamps, fewer flooded caves"
+  }
+}

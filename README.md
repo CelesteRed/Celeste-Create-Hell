@@ -89,7 +89,7 @@ The live server runs on wings1 (Pterodactyl server `235d0353`). Its "hellish" ba
   - `CAR3.0.zip`: Create Aero Rebalanced
   - `CGunsmithCCHRebalance1.0.zip`: no mass bullet crafting
   - `LetsDoVineryRebalanced2.0.zip`, `NoMoreTemplateCrafting.zip`, `QuickFixes`, `HarkenOre`, `HigherHeights`
-  - `CCH-Reforged-Balance/`: fixes recipes in the packs above that broke on 1.21.1, and balances the new mods' content
+  - `ZZ-CCH-Reforged-Balance/`: fixes recipes in the packs above that broke on 1.21.1, and balances the new mods' content
 - Server-only mods: antixray, reducedores, reducedloot, Xaero's map server utils, CPM, plus the `side = "server"` mods in `pack/mods/`.
 
 ## Notes
