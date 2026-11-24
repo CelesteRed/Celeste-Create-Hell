@@ -11,8 +11,7 @@
     "origins:feline",
     "origins:merling",
     "origins:shulk",
-    "origins:slimekin",
-    "eatsarock:rockeater"
+    "origins:slimekin"
   ],
   "allow_random": true,
   "exclude_random": [],

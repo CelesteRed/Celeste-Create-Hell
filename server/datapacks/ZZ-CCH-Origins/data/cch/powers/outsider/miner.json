@@ -1,0 +1,14 @@
+{
+  "name": "Unpracticed Miner",
+  "description": "Not a Miner: you break stone, ores and other pickaxe blocks 50% slower.",
+  "type": "apoli:modify_break_speed",
+  "modifier": {
+    "name": "Outsider mining",
+    "value": -0.5,
+    "operation": "multiply_base"
+  },
+  "block_condition": {
+    "type": "apoli:in_tag",
+    "tag": "minecraft:mineable/pickaxe"
+  }
+}

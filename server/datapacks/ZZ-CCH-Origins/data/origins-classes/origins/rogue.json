@@ -1,0 +1,22 @@
+{
+  "powers": [
+    "origins-classes:rogue/sneaky",
+    "origins-classes:rogue/in_the_shadows",
+    "origins-classes:rogue/stealth",
+    "cch:outsider/miner",
+    "cch:outsider/lumberjack",
+    "cch:outsider/farmer",
+    "cch:outsider/rancher",
+    "cch:outsider/beastmaster",
+    "cch:outsider/blacksmith",
+    "cch:outsider/cook",
+    "cch:outsider/cleric",
+    "cch:outsider/merchant",
+    "cch:outsider/archer",
+    "cch:outsider/warrior",
+    "cch:outsider/explorer"
+  ],
+  "icon": "minecraft:leather_helmet",
+  "order": 12,
+  "impact": 0
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Clumsy with an Axe",
+  "description": "Not a Lumberjack: you chop logs 50% slower and a log only crafts into 2 planks.",
+  "type": "apoli:multiple",
+  "chop": {
+    "type": "apoli:modify_break_speed",
+    "modifier": {
+      "name": "Outsider chopping",
+      "value": -0.5,
+      "operation": "multiply_base"
+    },
+    "block_condition": {
+      "type": "apoli:in_tag",
+      "tag": "minecraft:logs"
+    }
+  },
+  "planks": {
+    "type": "apoli:modify_crafting",
+    "item_condition": {
+      "type": "apoli:ingredient",
+      "ingredient": {
+        "tag": "minecraft:planks"
+      }
+    },
+    "item_action": {
+      "type": "apoli:modify",
+      "modifier": "cch:outsider/half_planks"
+    }
+  }
+}

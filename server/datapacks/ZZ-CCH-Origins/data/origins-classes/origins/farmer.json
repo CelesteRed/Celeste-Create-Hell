@@ -1,0 +1,21 @@
+{
+  "powers": [
+    "origins-classes:farmer/bountiful_harvest",
+    "origins-classes:farmer/fertilizing_techniques",
+    "cch:outsider/miner",
+    "cch:outsider/lumberjack",
+    "cch:outsider/rancher",
+    "cch:outsider/beastmaster",
+    "cch:outsider/blacksmith",
+    "cch:outsider/cook",
+    "cch:outsider/cleric",
+    "cch:outsider/merchant",
+    "cch:outsider/archer",
+    "cch:outsider/warrior",
+    "cch:outsider/explorer",
+    "cch:outsider/rogue"
+  ],
+  "icon": "minecraft:wheat",
+  "order": 1,
+  "impact": 0
+}

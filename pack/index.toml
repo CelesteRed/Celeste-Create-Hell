@@ -2974,11 +2974,6 @@ hash = "4f1af076df8b7f898ca1a6e629d6e1c03dfff644105618b127043831f7776ef7"
 metafile = true
 
 [[files]]
-file = "mods/pehkui.pw.toml"
-hash = "e5141bf653c820b9967b8be2e3d9d8e83f3b54d0450f0cabe812e00cce481fdf"
-metafile = true
-
-[[files]]
 file = "mods/pet-cemetery.pw.toml"
 hash = "f54003416e887882952b9a07e339829362c2c597ccd2d651c0a03d2120fb8a3a"
 metafile = true

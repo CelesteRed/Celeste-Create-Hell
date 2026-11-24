@@ -223,14 +223,14 @@ Tough As Nails sets each biome's temperature from its tags. A biome with no tag 
 Checked on the local server with `execute if biome`: Bumblezone biomes are warm and not hot, and Otherside biomes are cold.
 
 ## 13. Origins (ported from the Fabric Celeste Create Hell)
-The old Fabric pack ran Apace's Origins 1.10 (1.20.1) with six add-ons. Apace's Origins has no NeoForge 1.21.1 build, and the unofficial "Origins (Forge)" port stopped before 1.21. So the port uses **Overgrown's Origins** + **Overgrown's Apoli**. It's a NeoForge 1.21.1 reimplementation that reads the same `origins:` data-pack format, so old origin packs load unchanged. **Pehkui** is added for Rockeater's size change.
+The old Fabric pack ran Apace's Origins 1.10 (1.20.1) with six add-ons. Apace's Origins has no NeoForge 1.21.1 build, and the unofficial "Origins (Forge)" port stopped before 1.21. So the port uses **Overgrown's Origins** + **Overgrown's Apoli**. It's a NeoForge 1.21.1 reimplementation that reads the same `origins:` data-pack format, so old origin packs load unchanged.
 
 | Old add-on (Fabric 1.20.1) | Status in 8.0.0 | How |
 |---|---|---|
 | Origins (base) | ✅ Ported | Overgrown's Origins. The old roster was Arachnid, Avian, Blazeborn, Elytrian, Feline, Merling and Shulk, with Human, Enderian and Phantom turned off (`ZZ-CCH-Origins` keeps it that way) |
 | Origins: Classes (14 classes) | ✅ Ported | Overgrown's Origins: Classes: the same 14 classes with the same ids (`origins-classes:*`), as a second layer |
 | Mob Origins (11 mob origins) | ⚠️ Partly | The mod is Fabric 1.20.x only with ~30 Java power types, so it can't be ported as-is. Overgrown's ships **Buzzborne** (bee) and **Slimekin** (slime), which cover Mob Origins' Bee and Slime |
-| Origins: Rockeater | ✅ Ported | Its 1.21.1 data pack (MIT), in `datapacks/` |
+| Origins: Rockeater | ❌ Removed (14) | Ported at first, then removed on request; Pehkui went with it |
 | Origins: Dietary Delights | ✅ Ported | Its 1.21.x data pack (CC0), in `datapacks/`: modded foods count for carnivore/vegetarian diets |
 | Create: Origins | ✅ Ported (data part) | `ZZ-CCH-Origins`: Merling's swim bonus is off while wearing diving boots; only **full netherite** diving gear protects Blazeborn and Enderian from water |
 | Origins: Sapling | ❌ Not included | The 1.20 data pack loads, but 5 of its powers need the Apugli add-on (regeneration field, bee immunity, sounds) and its block/entity tags and function use pre-1.21 folder names. It's All Rights Reserved, so we can't ship a fixed copy |
@@ -251,3 +251,34 @@ Tested on the local server:
 - Shulk has no Shulker Inventory and keeps Natural Armor.
 
 Choosing an origin: Overgrown's Origins opens the origin and class screens for players who have none yet (not checked by eye in the test). Operators can use `/origin gui <player>` to reopen them, or `/origin set <player> <layer> <origin>`.
+
+## 14. Classes come with defects: specialize and trade
+Every class is still good at its own trade, but now it's **bad at everyone else's**. Each class carries the "outsider" defect of the other 12 classes, so a Miner chops wood badly, a Farmer mines slowly, and so on. Players have to specialize and trade with other classes to get things done. The defects appear in each class's power list on the class selection screen.
+
+| Trade | Defect for everyone who is **not** this class | Power |
+|---|---|---|
+| Miner | **Unpracticed Miner**: breaks pickaxe blocks (stone, ores…) 50% slower | `cch:outsider/miner` |
+| Lumberjack | **Clumsy with an Axe**: chops logs 50% slower; a log crafts into 2 planks (normally 4) | `cch:outsider/lumberjack` |
+| Farmer | **Black Thumb**: bone meal does nothing on crops; wheat, carrots, potatoes and beetroots never drop bonus items (no Fortune, no random extras) | `cch:outsider/farmer` |
+| Rancher | **No Way with Livestock**: can't breed cows, mooshrooms, sheep, pigs, chickens, rabbits or goats | `cch:outsider/rancher` |
+| Beastmaster | **Wild Things Distrust You**: can't tame or break in wolves, cats, parrots, horses, donkeys, mules or llamas | `cch:outsider/beastmaster` |
+| Blacksmith | **Amateur Smith**: anvil repairs need 50% more material; combining items repairs less | `cch:outsider/blacksmith` |
+| Cook | **Bland Cooking**: food fills you up 30% less (saturation) | `cch:outsider/cook` |
+| Cleric | **Untrained Alchemist**: can't use brewing stands; enchanting tables roll weaker (−5 enchantability) | `cch:outsider/cleric` |
+| Merchant | **Poor Haggler**: Wandering Traders won't trade with you | `cch:outsider/merchant` |
+| Archer | **Shaky Aim**: projectiles spread three times as much | `cch:outsider/archer` |
+| Warrior | **Untrained Fighter**: 15% less melee damage | `cch:outsider/warrior` |
+| Explorer | **Out of Shape**: sprinting makes you 50% hungrier | `cch:outsider/explorer` |
+| Rogue | **Conspicuous**: mobs notice you from 25% farther away | `cch:outsider/rogue` |
+
+Also changed:
+- **Nitwit is gone** from the class list. It had no perks, so with these defects it would only be a trap.
+- **Villager trading is untouched.** Only Wandering Traders are Merchant-only.
+- **Create machines aren't affected.** Drills, saws, harvesters and deployers don't have a class, so automation works the same for everyone. Building a factory is the shared way around the defects.
+
+Tuning lives in `datapacks/ZZ-CCH-Origins/data/cch/powers/outsider/*.json`. Change a number and run `/reload`.
+
+Tested on the local server:
+- All 234 powers and 27 origins loaded with no errors.
+- On a test player, a Miner gets every outsider defect except the Miner one, and a Farmer has the Miner defect but not the Farmer one.
+- Attack damage drops by 15% for non-Warriors.

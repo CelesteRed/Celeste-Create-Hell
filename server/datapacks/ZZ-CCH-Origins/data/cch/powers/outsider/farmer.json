@@ -1,0 +1,27 @@
+{
+  "name": "Black Thumb",
+  "description": "Not a Farmer: bone meal does nothing on crops, and crops never drop bonus items.",
+  "type": "apoli:multiple",
+  "no_bonemeal": {
+    "type": "apoli:prevent_block_use",
+    "item_condition": {
+      "type": "apoli:ingredient",
+      "ingredient": {
+        "item": "minecraft:bone_meal"
+      }
+    },
+    "block_condition": {
+      "type": "apoli:in_tag",
+      "tag": "minecraft:crops"
+    }
+  },
+  "poor_harvest": {
+    "type": "apoli:replace_loot_table",
+    "replace": {
+      "minecraft:blocks/wheat": "cch:outsider/poor_harvest/wheat",
+      "minecraft:blocks/carrots": "cch:outsider/poor_harvest/carrots",
+      "minecraft:blocks/potatoes": "cch:outsider/poor_harvest/potatoes",
+      "minecraft:blocks/beetroots": "cch:outsider/poor_harvest/beetroots"
+    }
+  }
+}

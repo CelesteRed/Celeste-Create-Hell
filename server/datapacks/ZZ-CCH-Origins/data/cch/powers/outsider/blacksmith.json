@@ -1,0 +1,13 @@
+{
+  "name": "Amateur Smith",
+  "description": "Not a Blacksmith: anvil repairs need 50% more material and combining items repairs less.",
+  "type": "apoli:modify_anvil",
+  "repair_material_modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": 0.5
+  },
+  "combine_bonus_modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": -0.5
+  }
+}

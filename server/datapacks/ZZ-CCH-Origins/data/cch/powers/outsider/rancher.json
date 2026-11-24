@@ -1,0 +1,64 @@
+{
+  "name": "No Way with Livestock",
+  "description": "Not a Rancher: you can't breed cows, mooshrooms, sheep, pigs, chickens, rabbits or goats.",
+  "type": "apoli:prevent_entity_use",
+  "bientity_condition": {
+    "type": "apoli:target_condition",
+    "condition": {
+      "type": "apoli:any_of",
+      "conditions": [
+        {
+          "type": "apoli:entity_type",
+          "entity_type": "minecraft:cow"
+        },
+        {
+          "type": "apoli:entity_type",
+          "entity_type": "minecraft:mooshroom"
+        },
+        {
+          "type": "apoli:entity_type",
+          "entity_type": "minecraft:sheep"
+        },
+        {
+          "type": "apoli:entity_type",
+          "entity_type": "minecraft:pig"
+        },
+        {
+          "type": "apoli:entity_type",
+          "entity_type": "minecraft:chicken"
+        },
+        {
+          "type": "apoli:entity_type",
+          "entity_type": "minecraft:rabbit"
+        },
+        {
+          "type": "apoli:entity_type",
+          "entity_type": "minecraft:goat"
+        }
+      ]
+    }
+  },
+  "item_condition": {
+    "type": "apoli:ingredient",
+    "ingredient": [
+      {
+        "tag": "minecraft:cow_food"
+      },
+      {
+        "tag": "minecraft:sheep_food"
+      },
+      {
+        "tag": "minecraft:pig_food"
+      },
+      {
+        "tag": "minecraft:chicken_food"
+      },
+      {
+        "tag": "minecraft:rabbit_food"
+      },
+      {
+        "tag": "minecraft:goat_food"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Shaky Aim",
+  "description": "Not an Archer: your arrows and other projectiles spread much more.",
+  "type": "apoli:modify_projectile_divergence",
+  "modifier": {
+    "operation": "multiply_base",
+    "value": 2
+  }
+}

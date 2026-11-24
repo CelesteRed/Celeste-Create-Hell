@@ -1,0 +1,21 @@
+{
+  "powers": [
+    "origins-classes:cook/good_meals",
+    "origins-classes:cook/smoking",
+    "cch:outsider/miner",
+    "cch:outsider/lumberjack",
+    "cch:outsider/farmer",
+    "cch:outsider/rancher",
+    "cch:outsider/beastmaster",
+    "cch:outsider/blacksmith",
+    "cch:outsider/cleric",
+    "cch:outsider/merchant",
+    "cch:outsider/archer",
+    "cch:outsider/warrior",
+    "cch:outsider/explorer",
+    "cch:outsider/rogue"
+  ],
+  "icon": "minecraft:rabbit_stew",
+  "order": 5,
+  "impact": 0
+}

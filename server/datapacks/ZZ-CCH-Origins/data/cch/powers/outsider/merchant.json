@@ -1,0 +1,12 @@
+{
+  "name": "Poor Haggler",
+  "description": "Not a Merchant: Wandering Traders won't do business with you.",
+  "type": "apoli:prevent_entity_use",
+  "bientity_condition": {
+    "type": "apoli:target_condition",
+    "condition": {
+      "type": "apoli:entity_type",
+      "entity_type": "minecraft:wandering_trader"
+    }
+  }
+}

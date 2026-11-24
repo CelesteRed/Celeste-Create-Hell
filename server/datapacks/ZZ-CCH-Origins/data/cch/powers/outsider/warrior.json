@@ -1,0 +1,11 @@
+{
+  "name": "Untrained Fighter",
+  "description": "Not a Warrior: you deal 15% less melee damage.",
+  "type": "apoli:attribute",
+  "modifier": {
+    "name": "Outsider melee",
+    "attribute": "minecraft:generic.attack_damage",
+    "value": -0.15,
+    "operation": "multiply_total"
+  }
+}
