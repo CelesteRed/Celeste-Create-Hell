@@ -125,6 +125,10 @@ file = "config/adorablehamsterpets/worldgen.toml"
 hash = "38aaf3da8cac5a671c6b75b25b7b590271c312e3a0b633670da6d5e95c7cefb0"
 
 [[files]]
+file = "config/aero_cam_sync-client.toml"
+hash = "c4ec40b1c75a69d877c5ddea4495337a602f0194e50fdb0fbb3910f161c5a181"
+
+[[files]]
 file = "config/aeroclaims-server.toml"
 hash = "54b6cf88d6189a1af57698bed9a66017639bb4d8ebb0988ccb011e7442ddaea9"
 
