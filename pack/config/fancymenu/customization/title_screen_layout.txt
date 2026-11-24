@@ -67,8 +67,8 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = c9c3fb28-bf77-449c-b006-c719b092a275-1793526676165
   [loading_requirement_container_meta:c9c3fb28-bf77-449c-b006-c719b092a275-1793526676165] = [groups:][instances:]
-  enable_parallax = true
-  invert_parallax = true
+  enable_parallax = false
+  invert_parallax = false
   animated_offset_x = 0
   animated_offset_y = 0
   load_once_per_session = false
@@ -89,8 +89,8 @@ element {
   fade_in_speed = 1.0
   fade_out_speed = 1.0
   base_opacity = 1.0
-  parallax_intensity_x = 0.1
-  parallax_intensity_y = 0.1
+  parallax_intensity_x = 0.0
+  parallax_intensity_y = 0.0
   rotation_degrees = 0.0
   advanced_rotation_degrees = 0.0
   vertical_tilt_degrees = 0.0
