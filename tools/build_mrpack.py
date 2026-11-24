@@ -7,7 +7,11 @@ unsup.jar, unsup.ini and the Relauncher config. After that, unsup keeps the inst
 sync with pack/ on GitHub, so this file only needs rebuilding for brand-new players, and
 even an old copy works (unsup catches it up on first launch).
 
-Usage:  python3 tools/build_mrpack.py            -> dist/Celeste-Create-Hell-<version>.mrpack
+Usage:  python3 tools/build_mrpack.py              -> dist/Celeste-Create-Hell-<version>.mrpack
+        python3 tools/build_mrpack.py --modrinth    -> dist/Celeste-Create-Hell-<version>-modrinth.mrpack
+                For publishing on Modrinth: no jars in overrides (our own jars such as
+                celeste-early-fixes are left out; unsup adds them on first launch from GitHub),
+                every download comes from Modrinth's CDN.
 """
 import hashlib
 import json
@@ -34,6 +38,7 @@ def api(url):
 
 
 def main():
+    modrinth = "--modrinth" in sys.argv[1:]
     pack = tomllib.loads((PACK / "pack.toml").read_text("utf-8"))
     index = tomllib.loads((PACK / pack["index"]["file"]).read_text("utf-8"))
     version = pack["version"]
@@ -107,7 +112,16 @@ def main():
     }
 
     DIST.mkdir(exist_ok=True)
-    out = DIST / f"Celeste-Create-Hell-{version}.mrpack"
+    out = DIST / f"Celeste-Create-Hell-{version}{'-modrinth' if modrinth else ''}.mrpack"
+    left_out = []
+    if modrinth:
+        if bundle_unsup:
+            sys.exit("unsup.jar is not on Modrinth, so it can't be referenced; refusing to bundle a jar")
+        bad = [f["path"] for f in files if not all(urllib.parse.urlparse(u).hostname == "cdn.modrinth.com" for u in f["downloads"])]
+        if bad:
+            sys.exit("non-Modrinth downloads: " + ", ".join(bad))
+        left_out = [r for r in raw if r.lower().endswith((".jar", ".jar.disabled"))]
+        raw = [r for r in raw if r not in left_out]
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
         z.writestr("modrinth.index.json", json.dumps(index_json, indent=2))
         for rel in raw:
@@ -117,6 +131,8 @@ def main():
         z.write(LAUNCHER / "unsup.ini", "overrides/unsup.ini")
     print(f"Wrote {out} ({len(files)} downloads, {len(raw) + 1 + bundle_unsup} override files"
           f"{', unsup.jar bundled (not on Modrinth)' if bundle_unsup else ''})")
+    if left_out:
+        print("Left out of the Modrinth .mrpack (unsup adds them on first launch): " + ", ".join(left_out))
     if skipped:
         print("Not in the .mrpack (unsup fetches them on first launch): " + ", ".join(sorted(skipped)))
 
