@@ -85,3 +85,61 @@ Note: a huge pump setup draining an ocean will lag the server while the water mo
 
 ## 7. Removed Create Dupe Fix (server-only)
 It calls `Thread.getStackTrace()` every time any block checks whether it can survive (flowers, grass, torches, ...). That made world generation crawl at under 1 chunk per second, and it slows every block update on the live server. Removed from the server and the pack.
+
+## 8. New dimensions: The Bumblezone and the Otherside (pack 1.0.9)
+Added from Modrinth (client and server): **The Bumblezone** 7.20.0 (needs Resourceful Lib, already in the pack) and **Deeper and Darker** 1.4.1 (adds the Otherside dimension).
+
+Checked and not added:
+- **Twilight Forest:** not on Modrinth for 1.21.1; only an unofficial port is.
+- **The Undergarden:** its caves are flooded with normal water up to y=32.
+- **The Aether:** fits, but kept to two dimensions for now.
+
+### Bumblezone: `datapacks/Bumblezone-Factory-Balance` (standalone, publishable)
+The full table is in that folder's README. In short:
+
+| What | Before | After |
+|---|---|---|
+| Entering | Ender Pearl at any bee nest/hive | The hive must sit on **Brass Casing** (needs brass, so a heated Create mixer) |
+| Super Candle | Crafting table | **Heated compacting**: 2 carvable wax + string + 250 mB honey |
+| Incense Candle | Super Candle + Royal Jelly + ≤5 potions, effects ≤ level V; or crafted straight from string + wax | Super Candle + Royal Jelly + **Precision Mechanism** + ≤**3** potions, effects ≤ level **II**; the string + wax recipe is removed |
+| Incense Candle Resistance cap | Resistance V | Resistance II |
+| Bee Queen Royal Jelly trades | Nether Stars, Totems, Enchanted Golden Apples, Dragon Egg/Head/Breath, End Crystals, Beacons | Golden Apples, XP bottles, Golden Carrots, Glow Ink, Name Tags, Ender Chests, Turtle Eggs, 2 Sculk Catalysts |
+| Pollinated Field suspicious blocks | 3.4% Enchanted Golden Apple | Golden Apple |
+
+Config `config/the_bumblezone/general.toml` (in the pack, so clients match):
+
+| Setting | Before | After | Effect |
+|---|---|---|---|
+| `crystallineFlowerExtraTierCost` | 0 | **1** | Every enchantment costs one more Crystalline Flower tier |
+| `crystallineFlowerEnchantingPowerAllowedPerTier` | 8 | **6** | High-level and rare enchantments show up only at higher flower tiers |
+
+### Otherside: Heart of the Deep needs the End (`ZZ-CCH-Reforged-Balance`)
+
+| What | Before | After |
+|---|---|---|
+| Warden drop | Always drops a Heart of the Deep | **No longer drops it** (`deeperdarker:loot_modifiers/warden_heart_from_warden` gets a 0% condition). It still drops 1–3 Warden Carapace. |
+| Heart of the Deep | Warden drop only | **Create Mechanical Crafting** (`cch:deeperdarker/heart_of_the_deep`): 1 Warden Carapace + 2 **Shulker Shells** + 1 **Dragon's Breath** + 6 Echo Shards |
+
+The Heart is the only thing that lights the Otherside portal, and that portal only exists inside Ancient Cities. Shulker Shells come from End Cities, which you can only reach through the gateway that opens after the Ender Dragon dies. Dragon's Breath comes from the dragon fight.
+
+### Water stays rare in both (`datapacks/CCH-Season-Terrain`)
+
+| File | Before | After |
+|---|---|---|
+| `the_bumblezone:worldgen/noise_settings/bz_noise_settings` | `sea_level` 40, `default_fluid` sugar water | `sea_level` **0**, `default_fluid` **air** |
+| `deeperdarker:worldgen/placed_feature/blooming_pool` | 2 water pools per layer per chunk (Blooming Caverns) | **0** |
+| `deeperdarker:worldgen/placed_feature/blooming_water_edge` | 13 waterlogged patches per chunk | **0** |
+
+Why `sea_level` 0 in the Bumblezone: its cave feature hardcodes sugar water below sea level. Sugar water is in the `#minecraft:water` tag, so it hydrates farmland, splashes in Create fans and counts as water everywhere. The Bumblezone's own honey (honey blocks, honey crystals, small honey fluid pools, brood) is untouched and is the dimension's resource.
+
+Create can't create fluid from Bumblezone fluids either. Bumblezone adds them to Create's "bottomless" tag, but Create's `bottomlessFluidMode = DENY_ALL` ignores that tag.
+
+### Borders (ChunkyBorder, saved in `config/chunkyborder/borders.json`)
+The overworld border also applies to every other dimension at the same size, and vanilla can't save a separate border per dimension. So the dimensions get extra ChunkyBorder limits:
+
+| Dimension | Border | Why |
+|---|---|---|
+| Bumblezone | square ±250 around 0,0 | Bumblezone is 1:4 scale, so this matches the overworld's ±1000 |
+| Otherside | square ±1000 around 0,0 | 1:1 scale; it also grows with the overworld border from 200 |
+
+Server operators bypass ChunkyBorder (permission `chunkyborder.bypass.move`). Tested: a normal player who walks or teleports past ±250 in the Bumblezone or ±1000 in the Otherside is put back just inside.

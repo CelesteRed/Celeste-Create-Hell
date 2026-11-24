@@ -1489,6 +1489,10 @@ file = "config/terrablender.toml"
 hash = "cff6a9a0d415b19b9852844c0ad5bb2b1cfdb9fce12e729e7228a6521fc95927"
 
 [[files]]
+file = "config/the_bumblezone/general.toml"
+hash = "58df7acf34e0f30654ae2e2ada706f58cab39893d7b5efa77c181ae3d813f8fe"
+
+[[files]]
 file = "config/thick_air-common.toml"
 hash = "aad7b8d5708a93965063d4cf4ba12b6e3bb2244719bb161e89f2c4a2533ecf59"
 
@@ -2416,6 +2420,11 @@ metafile = true
 [[files]]
 file = "mods/datapatched.pw.toml"
 hash = "facacf55d081a743da61883d098ae426969a78e597908af1311ff35b200ac898"
+metafile = true
+
+[[files]]
+file = "mods/deeperdarker.pw.toml"
+hash = "a9ecc4476d26e707189e9f988c19f22961c33dfd5e5b4db1dfd6f87c6a81c545"
 metafile = true
 
 [[files]]
@@ -3401,6 +3410,11 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
+metafile = true
+
+[[files]]
+file = "mods/the-bumblezone.pw.toml"
+hash = "55cba1dc2581e79354fa06a69d8ea18cba5b224738be809cfccec0370b6598e0"
 metafile = true
 
 [[files]]

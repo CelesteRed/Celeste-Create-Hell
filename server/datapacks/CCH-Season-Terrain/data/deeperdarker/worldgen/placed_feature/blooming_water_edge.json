@@ -1,0 +1,9 @@
+{
+  "feature": "deeperdarker:water_edge_blooming",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}

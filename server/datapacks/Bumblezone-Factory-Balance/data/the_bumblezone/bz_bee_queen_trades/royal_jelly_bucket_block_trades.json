@@ -1,0 +1,68 @@
+{
+  "wants": [
+    {
+      "id": "the_bumblezone:royal_jelly_bucket",
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:royal_jelly_block",
+      "required": true
+    }
+  ],
+  "possible_rewards": [
+    {
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 9
+      },
+      "xp_reward": 50,
+      "weight": 140,
+      "required": true
+    },
+    {
+      "item": {
+        "id": "minecraft:experience_bottle",
+        "count": 32
+      },
+      "xp_reward": 50,
+      "weight": 120,
+      "required": true
+    },
+    {
+      "item": {
+        "id": "minecraft:golden_carrot",
+        "count": 32
+      },
+      "xp_reward": 50,
+      "weight": 80,
+      "required": true
+    },
+    {
+      "item": {
+        "id": "minecraft:glow_ink_sac",
+        "count": 40
+      },
+      "xp_reward": 50,
+      "weight": 60,
+      "required": true
+    },
+    {
+      "item": {
+        "id": "minecraft:ender_chest",
+        "count": 2
+      },
+      "xp_reward": 50,
+      "weight": 40,
+      "required": true
+    },
+    {
+      "item": {
+        "id": "minecraft:name_tag",
+        "count": 16
+      },
+      "xp_reward": 50,
+      "weight": 40,
+      "required": true
+    }
+  ]
+}

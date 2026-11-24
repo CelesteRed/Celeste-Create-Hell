@@ -1,0 +1,9 @@
+{
+  "feature": "deeperdarker:pool_blooming",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}

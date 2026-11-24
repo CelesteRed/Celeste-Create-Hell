@@ -26,6 +26,14 @@ mkdir -p "$V/world/datapacks"
 tar xf /home/celeste/season-datapacks.tar -C "$V/world/datapacks"
 cp -r "/home/celeste/backups/world-season-end-$STAMP/serverconfig" "$V/world/" 2>/dev/null || true
 rm -rf "$V/config/chunky/tasks/"*
+# New-season mods/configs (Bumblezone, Deeper and Darker, tuned Bumblezone config), staged ahead of time.
+S=/home/celeste/season-staging
+if [ -d "$S/mods" ]; then
+  echo "== installing staged mods: $(ls "$S/mods" | tr '\n' ' ')"
+  cp -n "$S/mods/"*.jar "$V/mods/"
+  [ -d "$S/config" ] && cp -r "$S/config/." "$V/config/"
+  chown -R pterodactyl:pterodactyl "$V/mods" "$V/config"
+fi
 if grep -q '^level-seed=' "$V/server.properties"; then
   sed -i "s/^level-seed=.*/level-seed=$SEED/" "$V/server.properties"
 else
@@ -47,4 +55,10 @@ sleep 2
 cmd '"worldborder center 0 0","worldborder set 200"'
 sleep 2
 cmd '"function chunky_offline:config/set {radius:1000,x:0,z:0}","chunky cancel","chunky confirm","chunky center 0 0","chunky shape square","chunky radius 1000","chunky start"'
-echo "== done; pregeneration of +-1000 is running (about 15-25 minutes)"
+sleep 2
+# Per-dimension borders (ChunkyBorder; saved in config/chunkyborder/borders.json) + pregeneration.
+# Bumblezone is 1:4 scale, so +-250 there covers the same ground as the overworld's +-1000.
+cmd '"chunky world the_bumblezone:the_bumblezone","chunky center 0 0","chunky shape square","chunky radius 250","chunky border add","chunky start"'
+sleep 2
+cmd '"chunky world deeperdarker:otherside","chunky center 0 0","chunky shape square","chunky radius 1000","chunky border add","chunky start","chunky world minecraft:overworld"'
+echo "== done; pregeneration of +-1000 is running (about 15-25 minutes; Bumblezone/Otherside take ~3 minutes)"

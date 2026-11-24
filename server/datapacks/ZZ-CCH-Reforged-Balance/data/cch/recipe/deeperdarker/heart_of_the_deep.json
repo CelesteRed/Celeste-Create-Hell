@@ -1,0 +1,39 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "deeperdarker"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "minecraft:echo_shard"
+    },
+    "S": {
+      "item": "minecraft:shulker_shell"
+    },
+    "C": {
+      "item": "deeperdarker:warden_carapace"
+    },
+    "B": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "pattern": [
+    " ESE ",
+    "ESCSE",
+    " EBE "
+  ],
+  "result": {
+    "id": "deeperdarker:heart_of_the_deep",
+    "count": 1
+  },
+  "show_notification": true
+}
