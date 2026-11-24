@@ -1490,7 +1490,7 @@ hash = "cff6a9a0d415b19b9852844c0ad5bb2b1cfdb9fce12e729e7228a6521fc95927"
 
 [[files]]
 file = "config/the_bumblezone/general.toml"
-hash = "58df7acf34e0f30654ae2e2ada706f58cab39893d7b5efa77c181ae3d813f8fe"
+hash = "78b6f051dfb663b80978269b2fa07c624fd52d402ec20b4fc64b0a6e5f928ad1"
 
 [[files]]
 file = "config/thick_air-common.toml"

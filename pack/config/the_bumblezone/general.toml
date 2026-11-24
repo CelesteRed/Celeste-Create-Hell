@@ -176,7 +176,7 @@
 	#
 	# Default: 0
 	# Range: -5 ~ 5
-	crystallineFlowerExtraTierCost = 0
+	crystallineFlowerExtraTierCost = 1
 	#----------------------------
 	#
 	# Controls how much "enchanting power" is used per tier to determine what enchantment shows up.
@@ -186,7 +186,7 @@
 	#
 	# Default: 8
 	# Range: 0 ~ 1000
-	crystallineFlowerEnchantingPowerAllowedPerTier = 8
+	crystallineFlowerEnchantingPowerAllowedPerTier = 6
 
 ["General Mechanics Options"]
 	#----------------------------
