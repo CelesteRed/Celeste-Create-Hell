@@ -665,14 +665,6 @@ file = "config/copycats-server.toml"
 hash = "dac18a20718319d6556a7b2709d8f7a64b5da718d2b05ab9d32604087860322a"
 
 [[files]]
-file = "config/cosmetica/cosmetica.properties"
-hash = "0c584fe2b9bd574f2e416c43bdedfa6b08418216320d5b6ffce2bf898b707c89"
-
-[[files]]
-file = "config/cosmetica/pack_settings.json.disabled"
-hash = "d8ef02c40b10ca28edba23db2be1db2ba5a13c7a7feb7a757089a7374dda09f7"
-
-[[files]]
 file = "config/create-client.toml"
 hash = "1294948463b268551548b987c80e1b1fe63f5974ce1dd7de2a8954fa59d1d7c3"
 
@@ -835,14 +827,6 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 [[files]]
 file = "config/elytra-trims.json"
 hash = "84a7506102a44c2c76aebd0a28c30ff280d18791b7eddca16c08c7a91a670c80"
-
-[[files]]
-file = "config/emotecraft.json"
-hash = "8cfb42df2afa3b8aed623ab5ad0310181693831f55f092ebcef87b299ccc03e6"
-
-[[files]]
-file = "config/emotecraft_emote_map.json"
-hash = "0ce5a209870e0673c14f68d4581de2cefc67a3c37aa7071c943b711a69835775"
 
 [[files]]
 file = "config/entity_model_features.json"
@@ -1263,14 +1247,6 @@ hash = "27d874b4ffff283161e5e34f15658f8ac387cda76e2a7bb5248c807dbb364dc6"
 [[files]]
 file = "config/ponder-client.toml"
 hash = "55affffe67e84dfe11e590769e235aee999b77f9484a3adf7ee8247a9f3d35ba"
-
-[[files]]
-file = "config/pop_up_emotes-client.toml"
-hash = "cff966cf5fec9b4bdcdb02452a07c3575e3d6a0184da99534d28781b36fbee41"
-
-[[files]]
-file = "config/pop_up_emotes-server.toml"
-hash = "878af7c951adb744c7a6de939a323439bfc0e9d5e341c9c160345b26ad206aee"
 
 [[files]]
 file = "config/powergrid-client.toml"
@@ -1724,130 +1700,6 @@ hash = "bfdaeec2d437c13b773e0a1157666cdba5db999395b8be1060da0b542e5f5c40"
 metafile = true
 
 [[files]]
-file = "emotes/Animan Walk.emotecraft"
-hash = "f68d1504b4b3051b09b7225a70fe37c0f0526fffe6ab29033a8f41e12523036d"
-
-[[files]]
-file = "emotes/Back On 74.emotecraft"
-hash = "6f84325034eedc9729fc8debca879c78d6c208f0a997c6f7454bb09c7352f295"
-
-[[files]]
-file = "emotes/Basket Head.emotecraft"
-hash = "1ac042a735d07dd5fcc6e494db8fdd21a129746e9bb748b40f13f82decb90725"
-
-[[files]]
-file = "emotes/Bird is the Word.emotecraft"
-hash = "07439938e635a75306ddca38aee26a5cb4d8b6e866f5767c18590277ffb0939b"
-
-[[files]]
-file = "emotes/Blue Lock.emotecraft"
-hash = "0f249241bb340374bee646c79462da91ed283eee0ff062d49a6560dc8a97f685"
-
-[[files]]
-file = "emotes/Death on knees.emotecraft"
-hash = "e58694078ba004574c042adce36d1afb672fdaa3d5578292f8cab68ea298e28c"
-
-[[files]]
-file = "emotes/Dragged down.emotecraft"
-hash = "326772d82879deabae6b0fa4eda8606898766eeef26ee8aec0799d9e05dcd74f"
-
-[[files]]
-file = "emotes/Emerge.emotecraft"
-hash = "d7cc085f1531f6f56112ad0f1053e677cbe376ce2f24a4cc633740a3d1253433"
-
-[[files]]
-file = "emotes/Floss.emotecraft"
-hash = "2e48df2af9c398822e3ad145dbae395ecf898455bbdace40e08bbec55f103ae4"
-
-[[files]]
-file = "emotes/Freddy Conga.emotecraft"
-hash = "a60848eacf2d028140ae345d3e9d03520ecb90a2e5cb3d1566bf69267e8cf540"
-
-[[files]]
-file = "emotes/Front Lying.emotecraft"
-hash = "3b63b69587fe0c959b9fffec6460389a8bea287b76d3deb803f2d69b206b94ed"
-
-[[files]]
-file = "emotes/Josuke Higashikata LOOP.emotecraft"
-hash = "049668ddb8ab747d5a366312af1d739553ceefe2afd559d0c76f30864cd48e69"
-
-[[files]]
-file = "emotes/JotaroPose.emotecraft"
-hash = "6b77061bfa185e5a57cfa36df6758f517b8d4f4953e53c4bd5cf5428d554ef93"
-
-[[files]]
-file = "emotes/KL-Sit-1.emotecraft"
-hash = "7dcdc1a849daad7fe389f94e723ad36072b0b97ea76da62d95b2786dbcc65ee4"
-
-[[files]]
-file = "emotes/KL-Sit-Lies.emotecraft"
-hash = "b58b5f20678f08edd90ecf2a3c10b486448f2cb4ca89dbdf0e0a150d8abaf215"
-
-[[files]]
-file = "emotes/KL-sit-2.emotecraft"
-hash = "a0c1f4f16fffa9fff48f4d4d9f1d5bc72ba19d6c569accd8997bdd1a389e9590"
-
-[[files]]
-file = "emotes/KL-sit-3.emotecraft"
-hash = "0ff5a021b4f1cb9ec3e7e03426a70180c9d8a0031f7a0f6d72ced1ae3fd4d8ce"
-
-[[files]]
-file = "emotes/Lay on back.emotecraft"
-hash = "bfbd9b87c4ac3227c771eb19d34e72cce916eba7ed447d8ca0aed0f14b616218"
-
-[[files]]
-file = "emotes/Miku Live.emotecraft"
-hash = "c094baf5b2d79c58646e263b8ac01da6de87ecaf7be6462130d7255c75af17d6"
-
-[[files]]
-file = "emotes/OmniMan Thicc Sit Permanent.emotecraft"
-hash = "602f7834268dd4b2a8c19bdf5da5ee914899d369b32f2ce4e83f3dabd7cea99b"
-
-[[files]]
-file = "emotes/Proxima Creature.emotecraft"
-hash = "083aa2db244da11c34bb5fdb362f9ab499839647b281a37056b4e1dad49f3614"
-
-[[files]]
-file = "emotes/Rat Dance 1.2.emotecraft"
-hash = "43c9a333c716446bfb170ffb5a0c68dd48c8be555f8cccacf0b2896206caedf2"
-
-[[files]]
-file = "emotes/Rest.emotecraft"
-hash = "5f331b9d31ee48fd3c8db9984af72fff1cb75f403c82aabe12ba4d1c9ac8d1a0"
-
-[[files]]
-file = "emotes/Sit on the edge.emotecraft"
-hash = "fcd22bc9d9261d02614bc6f64dbc095cad0965344381900d130ca7f7850c7d3c"
-
-[[files]]
-file = "emotes/Zero Two Wiggle.emotecraft"
-hash = "515b714014e2739f66e04177f32588a849f2146e9b19541f5aeb33542c477c35"
-
-[[files]]
-file = "emotes/club penguin dance.emotecraft"
-hash = "420e3d66c48aafb2ba781457ac33aa83a88a99da74f48afe94af9241062e3a47"
-
-[[files]]
-file = "emotes/cool sit.emotecraft"
-hash = "b7fc49d00052854631db398dd8a80e7d8669eded5394906cf264f1b7a407005d"
-
-[[files]]
-file = "emotes/gangam style.emotecraft"
-hash = "18bef1fa35316b617befb5a96e0be17ed48403d3ddb5557a737e65cfc74a45c8"
-
-[[files]]
-file = "emotes/get griddy.emotecraft"
-hash = "c5a5d349ded5c6df81991b65dbed6de33ab706402254299b780fc7089de7bf03"
-
-[[files]]
-file = "emotes/lean.emotecraft"
-hash = "7f350aea4553ad0ddbd4296c430a24a0e93361c8653a03bd7b2604d1fec052bf"
-
-[[files]]
-file = "emotes/piglin victory dance.emotecraft"
-hash = "018bb8303d9de9ebf12b45bdcda2784b9f57b9b9dd530e5cab548b7c098b0dbd"
-
-[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "2dc498bd8a43a8e02fc9d08fe5846ac17f6eabbecbf38ae39aa7b1f23fe100b0"
 metafile = true
@@ -2169,11 +2021,6 @@ metafile = true
 [[files]]
 file = "mods/cosmetic-armor-reworked-forked.pw.toml"
 hash = "a46ca4af9976720616c93d993965bd15317ed82746230c702c55eaf447be88fd"
-metafile = true
-
-[[files]]
-file = "mods/cosmetica.pw.toml"
-hash = "2b59f3df8526fe7807942d9e5d3c815ad667713914fbc6d46492b60df813398b"
 metafile = true
 
 [[files]]
@@ -2507,16 +2354,6 @@ hash = "d6ed91cb31a7f5afe9bd48771e658b25ba2a366624d2649075cc67f616d92860"
 metafile = true
 
 [[files]]
-file = "mods/emote-tweaks.pw.toml"
-hash = "208d4a666d8f1b51f95e6467b6610afbec8c10608c5bc3e60ae3a87dbcb502cf"
-metafile = true
-
-[[files]]
-file = "mods/emotecraft.pw.toml"
-hash = "ee66efb9eae03c2f060086e26c9d9e4a9fbece4cd1f8fc92dfbf2771f3bad296"
-metafile = true
-
-[[files]]
 file = "mods/enderpearl-backport.pw.toml"
 hash = "fb70b7a422ac6c1e9bf11166ff531d6b7ddfb29869aa6748689cef7867d04d69"
 metafile = true
@@ -2579,11 +2416,6 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
-metafile = true
-
-[[files]]
-file = "mods/figura.pw.toml"
-hash = "eedcb7fff4e1e6e1e9b81920521277596b0907b0de377f06dc306d2d6624c69d"
 metafile = true
 
 [[files]]

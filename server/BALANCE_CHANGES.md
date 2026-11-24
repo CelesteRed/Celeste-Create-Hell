@@ -200,3 +200,14 @@ Tested on the local server:
 - Fan with a water block in front: the water dropped one level per step and was gone at the configured time.
 - A blaze downstream of real water took splashing damage and died in 6 s. A blaze downstream of waterlogged iron bars took none.
 - Dripstone under an enclosed water source filled a cauldron, and the source was used up within the first few drips (random 1-in-3).
+
+## 11. Removed Figura, Cosmetica and Emotecraft (8.0.0)
+These are being replaced by our own mod, Cosmiq.
+
+| Removed | Where it was | Also removed |
+|---|---|---|
+| Figura | client only | — |
+| Cosmetica | client only | `config/cosmetica/` |
+| Emotecraft | client + server | Emote Tweaks (needs Emotecraft), the `emotes/` folder (31 emotes), `config/emotecraft*.json`, the stale `config/pop_up_emotes-*.toml` |
+
+Players' installs drop these on their next launch, because unsup removes files that left the pack. The server jars are in `/home/celeste/backups/removed-emotecraft-2026-11-24_0309/`; the server stops loading them at its next restart.
