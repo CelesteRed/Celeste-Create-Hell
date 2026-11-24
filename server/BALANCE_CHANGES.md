@@ -180,3 +180,23 @@ Tested in-game:
 - With Flowing Fluids switched off for the test, a wheel next to flowing water spun at 8 RPM while the same wheel next to flowing sugar water stayed at 0. Flowing Fluids was turned back on and its config is unchanged.
 
 Side effect: you can't fish in sugar water.
+
+## 10. Fan washing uses up water; no waterlogged catalysts; dripstone and faucets (Celeste Server Fixes 1.1.0)
+All of this is in the server-only mod **Celeste Server Fixes** (`server-fixes/`); players don't need it. Settings are in `config/celeste_server_fixes.json` (restart to apply).
+
+| What | Before | After |
+|---|---|---|
+| Waterlogged blocks as fan washing catalysts | A waterlogged block (slab, iron bars, trapdoor...), kelp, seagrass or a bubble column in a fan current washed items forever without using water | **Doesn't count.** Only a real water block washes. Other fluids held inside blocks don't count either. |
+| Water in a running fan's air current | Never used up | **Evaporates.** `fanWaterLifetimeSeconds` = **300**: a full water block in the current loses 1/8 every 37.5 s and is gone after 5 minutes of the fan blowing on it. A pool loses water at each block the current passes through, and Flowing Fluids levels the rest out. |
+| Create Connected *Fan Splashing Catalyst* | Filled once (1 bucket), washed forever | After 300 s in a running current it turns back into an **Empty Fan Catalyst**; refill it with a bucket or a spout. |
+| Dreams & Desires *Splashing Sail* | Crafted once (1 water bucket per sail), washed forever | After 300 s in a running current it turns back into a **Sail Frame**. |
+| Dripstone filling a cauldron | Never used up the water or lava above it: infinite water and lava | **Uses up the source.** Water: each drip has a 1 in 3 chance to remove the source (on average one source per full cauldron, the same as a bucket). Lava: every fill removes the source. `dripstoneConsumesSource` turns this off. |
+
+How long washing takes for reference: this pack's Create config has `fanProcessingTime = 1500` (75 s per item group), so one water block washes about 4 groups before it's gone.
+
+Faucets: Supplementaries' Faucet and Let's Do Bakery's kitchen-sink faucet (both could make infinite water) were in the old Fabric pack. **Neither mod is in this pack.** I also searched every server and pack mod for faucet, tap, sink or spigot blocks and found none.
+
+Tested on the local server:
+- Fan with a water block in front: the water dropped one level per step and was gone at the configured time.
+- A blaze downstream of real water took splashing damage and died in 6 s. A blaze downstream of waterlogged iron bars took none.
+- Dripstone under an enclosed water source filled a cauldron, and the source was used up within the first few drips (random 1-in-3).

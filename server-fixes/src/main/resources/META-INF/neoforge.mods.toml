@@ -4,10 +4,10 @@ license = "MIT"
 
 [[mods]]
 modId = "celeste_server_fixes"
-version = "1.0.0"
+version = "1.1.0"
 displayName = "Celeste Server Fixes"
 authors = "CelesteRed"
-description = "Server-side fixes for Celeste Create Hell: fluids in #celeste:not_water (Bumblezone sugar water) can't turn Create water wheels."
+description = "Server-side water rules for Celeste Create Hell: sugar water never acts as water for Create water wheels; waterlogged blocks are not fan washing catalysts; water in a fan current evaporates; dripstone uses up its water/lava source."
 
 [[mixins]]
 config = "celeste_server_fixes.mixins.json"

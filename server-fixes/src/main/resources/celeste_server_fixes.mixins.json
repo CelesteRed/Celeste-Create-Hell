@@ -3,6 +3,14 @@
   "minVersion": "0.8",
   "package": "com.celestered.serverfixes.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": ["WaterWheelNoFakeWaterMixin"],
-  "injectors": { "defaultRequire": 1 }
+  "mixins": [
+    "WaterWheelNoFakeWaterMixin",
+    "FanSplashingNoWaterloggedMixin",
+    "AirCurrentEvaporationMixin",
+    "CauldronDripMixin",
+    "LayeredCauldronDripMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
 }
