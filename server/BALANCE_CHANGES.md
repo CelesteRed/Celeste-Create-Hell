@@ -144,7 +144,7 @@ The overworld border also applies to every other dimension at the same size, and
 
 Server operators bypass ChunkyBorder (permission `chunkyborder.bypass.move`). Tested: a normal player who walks or teleports past ±250 in the Bumblezone or ±1000 in the Otherside is put back just inside.
 
-## 9. Bumble Portal Pearl and "sugar water is not water" (pack 1.0.11)
+## 9. Bumble Portal Pearl and "sugar water is not water" (pack 1.0.11, released as 8.0.0)
 
 ### Getting in and out of the Bumblezone
 | What | Before (1.0.9) | After |
