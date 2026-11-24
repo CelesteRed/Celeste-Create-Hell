@@ -211,3 +211,13 @@ These are being replaced by our own mod, Cosmiq.
 | Emotecraft | client + server | Emote Tweaks (needs Emotecraft), the `emotes/` folder (31 emotes), `config/emotecraft*.json`, the stale `config/pop_up_emotes-*.toml` |
 
 Players' installs drop these on their next launch, because unsup removes files that left the pack. The server jars are in `/home/celeste/backups/removed-emotecraft-2026-11-24_0309/`; the server stops loading them at its next restart.
+
+## 12. Tough As Nails temperatures in the new dimensions
+Tough As Nails sets each biome's temperature from its tags. A biome with no tag falls back to the biome's base temperature, and both new dimensions fell back badly:
+
+| Dimension | Base temperature | Before | After (`ZZ-CCH-Reforged-Balance`) |
+|---|---|---|---|
+| Bumblezone (all 9 biomes, `#the_bumblezone:the_bumblezone`) | 1.85 | **Hot**: players overheat | **Warm** (`toughasnails:warm_biomes`): a warm hive, not dangerous alone |
+| Otherside (Overcast Columns 0.6, Echoing Forest 0.3, Deeplands −0.5, Blooming Caverns −0.3) | mostly below 0.15 | **Icy** in Deeplands and Blooming Caverns: players freeze | **Cold** (`toughasnails:cold_biomes`), the same as vanilla's Deep Dark |
+
+Checked on the local server with `execute if biome`: Bumblezone biomes are warm and not hot, and Otherside biomes are cold.
