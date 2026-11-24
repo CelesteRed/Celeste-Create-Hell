@@ -2,18 +2,14 @@
   "powers": [
     "origins-classes:rancher/twin_births",
     "origins-classes:rancher/scavenging",
-    "cch:outsider/miner",
-    "cch:outsider/lumberjack",
-    "cch:outsider/farmer",
-    "cch:outsider/beastmaster",
+    "cch:food_quality",
     "cch:outsider/blacksmith",
-    "cch:outsider/cook",
     "cch:outsider/cleric",
-    "cch:outsider/merchant",
+    "cch:outsider/cook",
+    "cch:outsider/farmer",
+    "cch:outsider/miner",
     "cch:outsider/archer",
-    "cch:outsider/warrior",
-    "cch:outsider/explorer",
-    "cch:outsider/rogue"
+    "cch:outsider/lumberjack"
   ],
   "icon": "minecraft:lead",
   "order": 2,

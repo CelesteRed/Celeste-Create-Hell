@@ -1,0 +1,46 @@
+{
+  "name": "Food Quality",
+  "description": "Food not made by a Cook restores 30% less hunger; Create-made ('Factory-made') food restores 15% less. Food 'Cooked by a Cook' restores the full amount.",
+  "type": "apoli:multiple",
+  "plain": {
+    "type": "apoli:modify_food",
+    "item_condition": {
+      "type": "apoli:all_of",
+      "conditions": [
+        {
+          "type": "apoli:nbt",
+          "nbt": "{cch_food:\"cook\"}",
+          "inverted": true
+        },
+        {
+          "type": "apoli:nbt",
+          "nbt": "{cch_food:\"machine\"}",
+          "inverted": true
+        }
+      ]
+    },
+    "food_modifier": {
+      "operation": "multiply_base_multiplicative",
+      "value": -0.3
+    },
+    "saturation_modifier": {
+      "operation": "multiply_base_multiplicative",
+      "value": -0.3
+    }
+  },
+  "factory": {
+    "type": "apoli:modify_food",
+    "item_condition": {
+      "type": "apoli:nbt",
+      "nbt": "{cch_food:\"machine\"}"
+    },
+    "food_modifier": {
+      "operation": "multiply_base_multiplicative",
+      "value": -0.15
+    },
+    "saturation_modifier": {
+      "operation": "multiply_base_multiplicative",
+      "value": -0.15
+    }
+  }
+}

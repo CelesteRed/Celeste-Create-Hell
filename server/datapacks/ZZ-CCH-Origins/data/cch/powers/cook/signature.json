@@ -1,0 +1,12 @@
+{
+  "name": "Chef's Touch",
+  "description": "Food you craft, cook in a furnace or smoker you opened, or cook on a campfire you loaded is marked 'Cooked by a Cook' and fills people up fully.",
+  "type": "apoli:modify_crafting",
+  "item_condition": {
+    "type": "apoli:food"
+  },
+  "item_action": {
+    "type": "apoli:modify",
+    "modifier": "cch:food/cook_stamp"
+  }
+}

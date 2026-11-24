@@ -8,7 +8,14 @@
     "FanSplashingNoWaterloggedMixin",
     "AirCurrentEvaporationMixin",
     "CauldronDripMixin",
-    "LayeredCauldronDripMixin"
+    "LayeredCauldronDripMixin",
+    "ContainerOwnerMixin",
+    "FurnaceCookStampMixin",
+    "CampfireCookStampMixin",
+    "BrewingAmateurMixin",
+    "CreateMachineFoodMixin",
+    "CreateFanFoodMixin",
+    "CreateCrafterFoodMixin"
   ],
   "injectors": {
     "defaultRequire": 1

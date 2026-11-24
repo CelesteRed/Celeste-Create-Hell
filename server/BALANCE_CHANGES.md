@@ -282,3 +282,40 @@ Tested on the local server:
 - All 234 powers and 27 origins loaded with no errors.
 - On a test player, a Miner gets every outsider defect except the Miner one, and a Farmer has the Miner defect but not the Farmer one.
 - Attack damage drops by 15% for non-Warriors.
+
+## 15. Classes, round 2: 8 classes, food quality, amateur potions
+Removed classes: **Beastmaster, Warrior, Explorer, Rogue, Merchant**, along with their perks and defects. Everyone can tame and ride animals again, deals normal melee damage, sprints normally, and can trade with Wandering Traders.
+
+**Classes now:** Blacksmith, Cleric, Cook, Farmer, Rancher, Miner, Archer, Lumberjack. Each carries the defects of the other seven.
+
+### Cook: food quality and ownership
+Every food item carries a quality, and it applies to **whoever eats it** (the `cch:food_quality` power, which every class has):
+
+| Food | Hunger and saturation when eaten | How it's marked |
+|---|---|---|
+| **Cooked by a Cook** | 100% | Gold "Cooked by a Cook" lore line |
+| **Factory-made** (Create) | 85% | Gray "Factory-made" lore line |
+| Everything else (made by a non-Cook, raw, found) | 70% | none |
+
+How food becomes "Cooked by a Cook":
+- **Crafting**: a Cook crafts it (crafting grid).
+- **Furnace / Smoker / Blast Furnace**: the station belongs to the **last player who opened it**. If that's a Cook, everything it smelts is Cook food. That covers a Cook loading it by hand, and also a hopper-fed station that a Cook opened last.
+- **Campfire**: the **last player who put food on it** decides.
+
+"Factory-made" food comes from Create: basin mixing and compacting, presses, deployers, spouts, sequenced assembly (all Create processing recipes), encased-fan smoking and blasting, and Mechanical Crafters.
+
+Marked food only stacks with food that has the same mark. The mark is stored in `custom_data.cch_food` (`cook` / `machine`).
+
+### Cleric: amateur potions
+Everyone can use brewing stands. A brewing stand belongs to the **last player who opened it**. If that's not a Cleric, the potions it brews come out **Amateur**: every effect at level I, half the normal duration, named "Potion of … (Amateur)". They have no base potion, so they can't be upgraded with glowstone or redstone. Clerics brew normal potions, and their own perk still extends them. Non-Clerics also keep the −5 enchantability defect.
+
+### Archer
+Non-Archers: projectiles spread 3× as much (as before), plus every bow shot costs 2 extra durability.
+
+All of this is server-side: the food marks, potion weakening and station ownership are in **Celeste Server Fixes 1.2.0**, and the class powers are in `ZZ-CCH-Origins`.
+
+Tested on the local server:
+- A Cook-owned furnace gave "Cooked by a Cook" cooked beef; a furnace with no Cook owner gave plain cooked beef.
+- A Cook-loaded campfire dropped stamped cooked chicken.
+- Fan-smoked beef on a depot came out "Factory-made".
+- A non-Cleric brewing stand turned awkward potion + sugar into "Potion of Swiftness (Amateur)" (Speed I, 1:30 instead of 3:00). A Cleric's stand made a normal Potion of Swiftness.

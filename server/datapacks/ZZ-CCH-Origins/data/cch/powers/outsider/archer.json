@@ -1,9 +1,26 @@
 {
   "name": "Shaky Aim",
-  "description": "Not an Archer: your arrows and other projectiles spread much more.",
-  "type": "apoli:modify_projectile_divergence",
-  "modifier": {
-    "operation": "multiply_base",
-    "value": 2
+  "description": "Not an Archer: your projectiles spread three times as much, and each bow shot costs 2 extra durability.",
+  "type": "apoli:multiple",
+  "spread": {
+    "type": "apoli:modify_projectile_divergence",
+    "modifier": {
+      "operation": "multiply_base",
+      "value": 2
+    }
+  },
+  "wear": {
+    "type": "apoli:action_on_item_use",
+    "trigger": "stop",
+    "item_condition": {
+      "type": "apoli:ingredient",
+      "ingredient": {
+        "tag": "origins-classes:bows"
+      }
+    },
+    "item_action": {
+      "type": "apoli:damage",
+      "amount": 2
+    }
   }
 }

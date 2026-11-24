@@ -1,7 +1,0 @@
-{
-  "name": "Conspicuous",
-  "description": "Not a Rogue: mobs notice you from 25% farther away.",
-  "type": "apoli:scale",
-  "scale_types": "apoli:visibility",
-  "scale": 1.25
-}

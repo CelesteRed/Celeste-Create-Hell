@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{cch_food:\"cook\"}"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "mode": "append",
+    "lore": [
+      {
+        "text": "Cooked by a Cook",
+        "color": "gold",
+        "italic": false
+      }
+    ]
+  }
+]

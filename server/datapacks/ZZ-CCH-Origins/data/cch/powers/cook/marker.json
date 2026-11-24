@@ -1,0 +1,31 @@
+{
+  "type": "apoli:multiple",
+  "hidden": true,
+  "callback": {
+    "type": "apoli:action_on_callback",
+    "entity_action_added": {
+      "type": "apoli:execute_command",
+      "command": "tag @s add cch_cook"
+    },
+    "entity_action_respawned": {
+      "type": "apoli:execute_command",
+      "command": "tag @s add cch_cook"
+    },
+    "entity_action_removed": {
+      "type": "apoli:execute_command",
+      "command": "tag @s remove cch_cook"
+    },
+    "entity_action_lost": {
+      "type": "apoli:execute_command",
+      "command": "tag @s remove cch_cook"
+    }
+  },
+  "keep": {
+    "type": "apoli:action_over_time",
+    "interval": 100,
+    "entity_action": {
+      "type": "apoli:execute_command",
+      "command": "tag @s add cch_cook"
+    }
+  }
+}

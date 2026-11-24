@@ -1,19 +1,9 @@
 {
   "name": "Untrained Alchemist",
-  "description": "Not a Cleric: you can't use brewing stands, and enchanting tables give you weaker enchantments.",
-  "type": "apoli:multiple",
-  "no_brewing": {
-    "type": "apoli:prevent_block_use",
-    "block_condition": {
-      "type": "apoli:block",
-      "block": "minecraft:brewing_stand"
-    }
-  },
-  "weak_enchants": {
-    "type": "apoli:modify_enchantability",
-    "modifier": {
-      "operation": "add_base_early",
-      "value": -5
-    }
+  "description": "Not a Cleric: potions from a brewing stand you opened are Amateur: level I only, at half duration, and they can't be brewed further. Enchanting tables also roll weaker for you.",
+  "type": "apoli:modify_enchantability",
+  "modifier": {
+    "operation": "add_base_early",
+    "value": -5
   }
 }

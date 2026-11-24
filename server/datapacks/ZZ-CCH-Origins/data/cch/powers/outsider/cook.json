@@ -1,9 +1,5 @@
 {
-  "name": "Bland Cooking",
-  "description": "Not a Cook: food you eat fills you up 30% less (saturation).",
-  "type": "apoli:modify_food",
-  "saturation_modifier": {
-    "operation": "multiply_base_multiplicative",
-    "value": -0.3
-  }
+  "name": "No Chef",
+  "description": "Not a Cook: food you make isn't Cook-quality. It restores 30% less hunger for whoever eats it.",
+  "type": "apoli:simple"
 }
