@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "#the_bumblezone:sugar_water", "required": false }
+  ]
+}

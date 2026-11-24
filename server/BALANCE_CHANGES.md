@@ -99,7 +99,7 @@ The full table is in that folder's README. In short:
 
 | What | Before | After |
 |---|---|---|
-| Entering | Ender Pearl at any bee nest/hive | The hive must sit on **Brass Casing** (needs brass, so a heated Create mixer) |
+| Entering and leaving | Ender Pearl at any bee nest/hive; fall out of the world to leave | Only with a **Bumble Portal Pearl** (see below) |
 | Super Candle | Crafting table | **Heated compacting**: 2 carvable wax + string + 250 mB honey |
 | Incense Candle | Super Candle + Royal Jelly + ≤5 potions, effects ≤ level V; or crafted straight from string + wax | Super Candle + Royal Jelly + **Precision Mechanism** + ≤**3** potions, effects ≤ level **II**; the string + wax recipe is removed |
 | Incense Candle Resistance cap | Resistance V | Resistance II |
@@ -143,3 +143,40 @@ The overworld border also applies to every other dimension at the same size, and
 | Otherside | square ±1000 around 0,0 | 1:1 scale; it also grows with the overworld border from 200 |
 
 Server operators bypass ChunkyBorder (permission `chunkyborder.bypass.move`). Tested: a normal player who walks or teleports past ±250 in the Bumblezone or ±1000 in the Otherside is put back just inside.
+
+## 9. Bumble Portal Pearl and "sugar water is not water" (pack 1.0.11)
+
+### Getting in and out of the Bumblezone
+| What | Before (1.0.9) | After |
+|---|---|---|
+| Entering | Ender Pearl at a hive sitting on Brass Casing | **Bumble Portal Pearl** thrown at any Overworld bee nest or beehive. Normal pearls do nothing special. |
+| Leaving | Fall out of the bottom or top of the dimension | **Bumble Portal Pearl** thrown anywhere in the Bumblezone. You land on the Overworld surface at ×4, inside the world border. |
+| Bumble Portal Pearl recipe | — | Create sequenced assembly: beehive or bee nest → deploy Ender Pearl → fill 500 mB honey → deploy Brass Ingot → press = **2 pearls** (one round trip) |
+| `config/the_bumblezone/dimension.toml` `enableEntranceTeleportation` | true | **false** |
+| `config/the_bumblezone/dimension.toml` `enableExitTeleportation` | true | **false** |
+
+How it works: the datapack watches for thrown ender pearls carrying `custom_data {bumble_portal:1b}`. When one lands, vanilla has already moved the thrower to the impact point. The datapack then checks for a hive within 1 block (Overworld) or that the thrower is in the Bumblezone, and moves them with `spreadplayers`, which only picks safe floors. If no safe spot is found, the pearl is returned.
+
+The Brass Casing requirement from 1.0.9 is gone; brass is now part of the pearl recipe instead.
+
+Tested on the local server:
+- A normal pearl on a hive does nothing.
+- A Bumble pearl on a beehive or bee nest enters.
+- A Bumble pearl thrown in the Bumblezone exits at ×4.
+- With a 200-wide Overworld border, exiting from Bumblezone x=200 landed at x=81 (clamped inside the border).
+- A Bumble pearl on plain ground is just a normal pearl.
+- While locked, the pearl is returned.
+
+### Sugar water is never water
+| Where | Before | After |
+|---|---|---|
+| `#minecraft:water` | Included sugar water (Bumblezone adds it): it hydrated farmland, counted in Create recipes that take water, and made cobblestone or obsidian with lava in Create pipes | Removed (NeoForge tag `remove`, in `Bumblezone-Factory-Balance`) |
+| `#create:fan_processing_catalysts/splashing` | Sugar water washed items in fans | Removed |
+| `#create:bottomless/allow` | Sugar water and honey listed | Removed (Create's `DENY_ALL` already ignored it) |
+| Create water wheels | Spin for any flowing fluid except lava, including sugar water | Sugar water gives no flow. New server-only mod **Celeste Server Fixes** (`server-fixes/`): a mixin on `WaterWheelBlockEntity.getFlowVectorAtPosition`, plus Flowing Fluids' flow memory, for fluids in `#celeste:not_water` |
+
+Tested in-game:
+- `#minecraft:water` and the fan-splashing tag now match water but not sugar water.
+- With Flowing Fluids switched off for the test, a wheel next to flowing water spun at 8 RPM while the same wheel next to flowing sugar water stayed at 0. Flowing Fluids was turned back on and its config is unchanged.
+
+Side effect: you can't fish in sugar water.

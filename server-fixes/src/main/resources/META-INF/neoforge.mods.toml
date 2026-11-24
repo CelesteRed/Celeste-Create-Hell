@@ -1,0 +1,20 @@
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "celeste_server_fixes"
+version = "1.0.0"
+displayName = "Celeste Server Fixes"
+authors = "CelesteRed"
+description = "Server-side fixes for Celeste Create Hell: fluids in #celeste:not_water (Bumblezone sugar water) can't turn Create water wheels."
+
+[[mixins]]
+config = "celeste_server_fixes.mixins.json"
+
+[[dependencies.celeste_server_fixes]]
+modId = "create"
+type = "required"
+versionRange = "[6.0,)"
+ordering = "NONE"
+side = "BOTH"

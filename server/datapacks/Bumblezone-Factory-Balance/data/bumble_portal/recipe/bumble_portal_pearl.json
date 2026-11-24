@@ -1,0 +1,106 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "the_bumblezone"
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": [
+    {
+      "item": "minecraft:beehive"
+    },
+    {
+      "item": "minecraft:bee_nest"
+    }
+  ],
+  "loops": 1,
+  "results": [
+    {
+      "id": "minecraft:ender_pearl",
+      "count": 2,
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"Bumble Portal Pearl\",\"color\":\"gold\",\"italic\":false}",
+        "minecraft:lore": [
+          "{\"text\":\"Throw it at a bee nest or beehive\",\"color\":\"yellow\",\"italic\":false}",
+          "{\"text\":\"to enter the Bumblezone.\",\"color\":\"yellow\",\"italic\":false}",
+          "{\"text\":\"Throw it anywhere in the Bumblezone to leave.\",\"color\":\"gray\",\"italic\":false}"
+        ],
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:custom_data": "{bumble_portal:1b}"
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:beehive"
+        },
+        {
+          "item": "minecraft:ender_pearl"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:beehive"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:beehive"
+        },
+        {
+          "type": "neoforge:tag",
+          "amount": 500,
+          "tag": "c:honey"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:beehive"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:beehive"
+        },
+        {
+          "tag": "c:ingots/brass"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:beehive"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:beehive"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:beehive"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:beehive"
+  }
+}

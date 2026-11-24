@@ -25,13 +25,13 @@ Tested on a 2000×2000 pregenerated test world (whole world, every height):
 ## Other dimensions
 | Dimension | How you get in | Water | Border |
 |---|---|---|---|
-| **Bumblezone** (`the_bumblezone:the_bumblezone`) | Ender Pearl at a bee nest/hive that sits on **Brass Casing** | No sugar-water sea (sea level 0); only small sugar-water falls. Honey is the resource. | ChunkyBorder ±250 (1:4 scale = overworld ±1000) |
+| **Bumblezone** (`the_bumblezone:the_bumblezone`) | A **Bumble Portal Pearl** thrown at an Overworld bee nest/hive; throw another anywhere inside to leave | No sugar-water sea (sea level 0); only small sugar-water falls. Honey is the resource. | ChunkyBorder ±250 (1:4 scale = overworld ±1000) |
 | **Otherside** (`deeperdarker:otherside`) | Ancient City portal lit with a Heart of the Deep, which now needs Shulker Shells + Dragon's Breath (after the Ender Dragon) | No water pools; the dimension's fluid is sculk grime | ChunkyBorder ±1000 |
 | Nether, End | unchanged | — | follows the overworld border |
 
 `season-reset.sh` adds both ChunkyBorders and pregenerates both dimensions.
 
-Optional lock: until you want a dimension open, set `enableEntranceTeleportation = false` in `config/the_bumblezone/dimension.toml` (Bumblezone). For the Otherside, don't hand out Hearts; there's no other way in.
+Optional lock: `/function bumble_portal:lock` closes the Bumblezone (thrown pearls are returned) and `/function bumble_portal:unlock` opens it. For the Otherside, don't hand out Hearts of the Deep; there's no other way in.
 
 ## Border
 - Locked final size: **2000 × 2000** (±1000 around 0,0).

@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.celestered.serverfixes.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["WaterWheelNoFakeWaterMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

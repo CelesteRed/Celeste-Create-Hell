@@ -1,0 +1,2 @@
+give @s minecraft:ender_pearl[minecraft:custom_name='{"text":"Bumble Portal Pearl","color":"gold","italic":false}',minecraft:lore=['{"text":"Throw it at a bee nest or beehive","color":"yellow","italic":false}','{"text":"to enter the Bumblezone.","color":"yellow","italic":false}','{"text":"Throw it anywhere in the Bumblezone to leave.","color":"gray","italic":false}'],minecraft:enchantment_glint_override=true,minecraft:custom_data={bumble_portal:1b}] 1
+title @s actionbar {"text":"The hive wouldn't open: no safe spot nearby. Your pearl was returned.","color":"red"}
