@@ -221,3 +221,33 @@ Tough As Nails sets each biome's temperature from its tags. A biome with no tag 
 | Otherside (Overcast Columns 0.6, Echoing Forest 0.3, Deeplands −0.5, Blooming Caverns −0.3) | mostly below 0.15 | **Icy** in Deeplands and Blooming Caverns: players freeze | **Cold** (`toughasnails:cold_biomes`), the same as vanilla's Deep Dark |
 
 Checked on the local server with `execute if biome`: Bumblezone biomes are warm and not hot, and Otherside biomes are cold.
+
+## 13. Origins (ported from the Fabric Celeste Create Hell)
+The old Fabric pack ran Apace's Origins 1.10 (1.20.1) with six add-ons. Apace's Origins has no NeoForge 1.21.1 build, and the unofficial "Origins (Forge)" port stopped before 1.21. So the port uses **Overgrown's Origins** + **Overgrown's Apoli**. It's a NeoForge 1.21.1 reimplementation that reads the same `origins:` data-pack format, so old origin packs load unchanged. **Pehkui** is added for Rockeater's size change.
+
+| Old add-on (Fabric 1.20.1) | Status in 8.0.0 | How |
+|---|---|---|
+| Origins (base) | ✅ Ported | Overgrown's Origins. The old roster was Arachnid, Avian, Blazeborn, Elytrian, Feline, Merling and Shulk, with Human, Enderian and Phantom turned off (`ZZ-CCH-Origins` keeps it that way) |
+| Origins: Classes (14 classes) | ✅ Ported | Overgrown's Origins: Classes: the same 14 classes with the same ids (`origins-classes:*`), as a second layer |
+| Mob Origins (11 mob origins) | ⚠️ Partly | The mod is Fabric 1.20.x only with ~30 Java power types, so it can't be ported as-is. Overgrown's ships **Buzzborne** (bee) and **Slimekin** (slime), which cover Mob Origins' Bee and Slime |
+| Origins: Rockeater | ✅ Ported | Its 1.21.1 data pack (MIT), in `datapacks/` |
+| Origins: Dietary Delights | ✅ Ported | Its 1.21.x data pack (CC0), in `datapacks/`: modded foods count for carnivore/vegetarian diets |
+| Create: Origins | ✅ Ported (data part) | `ZZ-CCH-Origins`: Merling's swim bonus is off while wearing diving boots; only **full netherite** diving gear protects Blazeborn and Enderian from water |
+| Origins: Sapling | ❌ Not included | The 1.20 data pack loads, but 5 of its powers need the Apugli add-on (regeneration field, bee immunity, sounds) and its block/entity tags and function use pre-1.21 folder names. It's All Rights Reserved, so we can't ship a fixed copy |
+
+Power tweaks carried over from the old `origins_server.json` (in `ZZ-CCH-Origins`):
+
+| Origin | Removed power |
+|---|---|
+| Feline | Nine Lives |
+| Shulk | Shulker Inventory, Strong Arms, Strong Arms break speed |
+| Arachnid | Carnivore, Fragile |
+| Blazeborn | Nether Spawn |
+
+Tested on the local server:
+- 29 origins and 2 layers loaded (12 base origins, 14 classes, Rockeater, plus the inactive Sapling test); the live server loads 28 without Sapling.
+- `/origin set` worked on both layers, and Feline has no Nine Lives while Fall Immunity still applies.
+- Rockeater shrinks the player to half height through Pehkui, and switching to another origin resets the size.
+- Shulk has no Shulker Inventory and keeps Natural Armor.
+
+Choosing an origin: Overgrown's Origins opens the origin and class screens for players who have none yet (not checked by eye in the test). Operators can use `/origin gui <player>` to reopen them, or `/origin set <player> <layer> <origin>`.

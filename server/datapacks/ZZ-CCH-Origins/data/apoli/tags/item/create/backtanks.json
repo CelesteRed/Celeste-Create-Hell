@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "create:netherite_backtank",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "create:netherite_diving_boots",
+      "required": false
+    }
+  ]
+}

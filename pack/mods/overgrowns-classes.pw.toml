@@ -1,0 +1,13 @@
+name = "Overgrown's Origins: Classes"
+filename = "overgrowns-classes-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/I3sH0Yi9/versions/flUPOWxI/overgrowns-classes-1.0.2.jar"
+hash-format = "sha512"
+hash = "10ddc318f9e045266295ed481b4e6ae655432bba2fd6cf8b88a9f6076674540810414df15129d305ad8017d008055ad54ed5aeec8ab81ce3ee38e30cd9d81c64"
+
+[update]
+[update.modrinth]
+mod-id = "I3sH0Yi9"
+version = "flUPOWxI"

@@ -1,0 +1,19 @@
+{
+  "type": "apoli:modify_swim_speed",
+  "modifier": {
+    "name": "Additional swim speed",
+    "value": 0.15,
+    "operation": "addition"
+  },
+  "condition": {
+    "type": "apoli:equipped_item",
+    "equipment_slot": "feet",
+    "inverted": true,
+    "item_condition": {
+      "type": "apoli:ingredient",
+      "ingredient": {
+        "tag": "cch:diving_boots"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "replace": true,
+  "order": 0,
+  "enabled": true,
+  "origins": [
+    "origins:arachnid",
+    "origins:avian",
+    "origins:blazeborn",
+    "origins:buzzborne",
+    "origins:elytrian",
+    "origins:feline",
+    "origins:merling",
+    "origins:shulk",
+    "origins:slimekin",
+    "eatsarock:rockeater"
+  ],
+  "allow_random": true,
+  "exclude_random": [],
+  "allow_random_unchoosable": false,
+  "hidden": false
+}

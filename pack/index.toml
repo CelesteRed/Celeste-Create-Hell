@@ -2934,8 +2934,23 @@ hash = "299ed58980f5c02afbaabcc52d5e573e8b8ab0c2c30fd688d6d7e86e7ac6bf6d"
 metafile = true
 
 [[files]]
+file = "mods/opoli.pw.toml"
+hash = "fac3b9e72941c6a4986dc543c0e24b2adb1b29f342c711880bbe737fba6497b1"
+metafile = true
+
+[[files]]
 file = "mods/ore-mining-speed.pw.toml"
 hash = "8e7503353aaf309abcac30d98835c9cccbe6ef8571b31e0ffedd6eb4623c0668"
+metafile = true
+
+[[files]]
+file = "mods/overgrowns-classes.pw.toml"
+hash = "64dd292a23d3b6506dbcc9179b75cea1c97887dd801d6d32bbb5776ae4d9af1c"
+metafile = true
+
+[[files]]
+file = "mods/overgrowns-origins.pw.toml"
+hash = "1605a258f20a132f8f9920b5b619c557fcde103dba51cc48f56bb0ad5b1115b9"
 metafile = true
 
 [[files]]
@@ -2956,6 +2971,11 @@ metafile = true
 [[files]]
 file = "mods/passable-foliage.pw.toml"
 hash = "4f1af076df8b7f898ca1a6e629d6e1c03dfff644105618b127043831f7776ef7"
+metafile = true
+
+[[files]]
+file = "mods/pehkui.pw.toml"
+hash = "e5141bf653c820b9967b8be2e3d9d8e83f3b54d0450f0cabe812e00cce481fdf"
 metafile = true
 
 [[files]]

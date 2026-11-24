@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "origins:arachnid/toggle_icon",
+    "origins:arachnid/climbing",
+    "origins:arachnid/master_of_webs",
+    "origins:arachnid/arthropod"
+  ],
+  "icon": {
+    "item": "minecraft:cobweb"
+  },
+  "order": 1,
+  "impact": 1
+}

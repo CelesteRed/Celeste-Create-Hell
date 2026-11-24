@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins:shulk/natural_armor",
+    "origins:shulk/no_shield",
+    "origins:shulk/more_exhaustion"
+  ],
+  "icon": {
+    "item": "minecraft:shulker_shell"
+  },
+  "order": 4,
+  "impact": 1
+}
