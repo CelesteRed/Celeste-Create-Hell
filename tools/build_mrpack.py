@@ -129,6 +129,8 @@ def main():
         if bundle_unsup:
             z.write(LAUNCHER / "unsup.jar", "overrides/unsup.jar")
         z.write(LAUNCHER / "unsup.ini", "overrides/unsup.ini")
+        # Starting server list (Survival + Creative). Only in the .mrpack, so unsup never overwrites a player's own list.
+        z.write(LAUNCHER / "servers.dat", "overrides/servers.dat")
     print(f"Wrote {out} ({len(files)} downloads, {len(raw) + 1 + bundle_unsup} override files"
           f"{', unsup.jar bundled (not on Modrinth)' if bundle_unsup else ''})")
     if left_out:

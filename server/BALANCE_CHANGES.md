@@ -319,3 +319,16 @@ Tested on the local server:
 - A Cook-loaded campfire dropped stamped cooked chicken.
 - Fan-smoked beef on a depot came out "Factory-made".
 - A non-Cleric brewing stand turned awkward potion + sugar into "Potion of Swiftness (Amateur)" (Speed I, 1:30 instead of 3:00). A Cleric's stand made a normal Potion of Swiftness.
+
+## 16. Pack 8.0.1: mod cleanup and fixes
+| Change | Why |
+|---|---|
+| Removed Figura, Cosmetica, Emotecraft, Emote Tweaks (and Emote Tweaks' bundled Zigy's Multiloader Utils) | Replaced by Cosmiq. Celeste Early Fixes 1.0.6 now deletes these jars from players' mods folders before the game loads, because unsup only removes files it installed itself (so .mrpack imports kept them, and Emote Tweaks blocked joining). |
+| Removed Default Server Listings + Matthiesen Core | Replaced by a `servers.dat` in the .mrpack with Survival (`hell.skull.wtf`) and Creative (`create.skull.wtf`). It's only written on first install, so a player's own list is never touched. |
+| Added Ksyxis | Faster singleplayer world loading (skips spawn-chunk loading). |
+| Pehkui kept | Slimekin's split power resizes the player with it (it was briefly removed with Rockeater). |
+| Create Dupe Fix back on both servers (server-only) | Prevents Create duplication glitches. The world is already pregenerated, so its slow world generation no longer matters. |
+| Celeste Server Fixes 1.2.1 | Fixes a server crash: Flowing Fluids tried to drain water from Alex's Caves sulfur buds, which claim to hold water but have no water slot. |
+| Aeronautics Camera Sync config shipped already reset | No "Config Reset" pop-up on first launch. |
+| Removed Draggable Lists | Broke clicking in the server list: clicking a server selected the one below it. Early Fixes 1.0.6 deletes it from players' installs. |
+| Main menu (FancyMenu 3.9.1) | Join Server button lines up exactly with the vanilla buttons. |

@@ -805,10 +805,6 @@ file = "config/darkness-client.toml"
 hash = "f7ab2b424b77733f74500eb6e5ee4d894eade0c36fcca20f50dcb6ae6001fe50"
 
 [[files]]
-file = "config/default-server-listings.toml"
-hash = "2a4cd4cd6de50b746a7ed47aa50c7c6d37a83fb74a3cae16ca050e8c68a43d72"
-
-[[files]]
 file = "config/deote.json"
 hash = "9bd711e374cc5914587c074996735416d46be454887f2a0e2f0a22753fc802fa"
 
@@ -1901,8 +1897,8 @@ hash = "bf29c048059a9d0b6ff0c4fd3bf6995ffc9637239fa428571a09cbe30cb2237a"
 metafile = true
 
 [[files]]
-file = "mods/celeste-early-fixes-1.0.5.jar"
-hash = "6b4bb44ebbb52128fba61f3e7556f1c37123aa6b59559a2120fd75f6b1f99fff"
+file = "mods/celeste-early-fixes-1.0.6.jar"
+hash = "cff2329eae77841d137939b06afd7fd794e48c076adfcd9141cd20a20f27ac4c"
 
 [[files]]
 file = "mods/cgs.pw.toml"
@@ -2300,11 +2296,6 @@ hash = "a6967d761dde867ccc1af53dc9f4e530eb9917a9cb21d0fc15708e8cd2c0f2ba"
 metafile = true
 
 [[files]]
-file = "mods/default-server-listings.pw.toml"
-hash = "66b07bc50cfb868a08e0bfda5c8e10e618c95ee69e263d87c76ee1679a7eb121"
-metafile = true
-
-[[files]]
 file = "mods/deote.pw.toml"
 hash = "43b3f2c09906c3411831f6c8fa0437a01ea5a92264cf04f6dabcf1b81d3b76b8"
 metafile = true
@@ -2337,11 +2328,6 @@ metafile = true
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
 hash = "fe88386ca7a7c34be094f10e3a012810cec23f21b580dbc1c908cf95a17bf6f8"
-metafile = true
-
-[[files]]
-file = "mods/draggable-lists.pw.toml"
-hash = "50de1919e6cc3104a4a2557b0644c15f5a56722cf76a19b194ec6ecf61bcae13"
 metafile = true
 
 [[files]]
@@ -2767,11 +2753,6 @@ metafile = true
 [[files]]
 file = "mods/log-begone.pw.toml"
 hash = "48bd525ac1cd8811759a7842548a49e51bd25455b8044f99a423d464987dfdc0"
-metafile = true
-
-[[files]]
-file = "mods/matthiesen-core.pw.toml"
-hash = "524b8838609c7a5b8782e46823d219faa82d3aed79d07748db29686b0f449525"
 metafile = true
 
 [[files]]
