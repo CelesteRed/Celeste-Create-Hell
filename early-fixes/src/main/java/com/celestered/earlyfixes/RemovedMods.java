@@ -15,7 +15,7 @@ import java.util.Locale;
 final class RemovedMods {
     /** Lowercase filename prefixes of mods that are no longer part of Celeste Create Hell. */
     private static final String[] PREFIXES = {
-            "emotecraft-", "emotetweaks-", "figura-", "cosmetica-", "pehkui-", "create_dupe_fix", "createdupefix",
+            "emotecraft-", "emotetweaks-", "figura-", "cosmetica-",
             "zfastnoise", "fastnoise",
     };
 

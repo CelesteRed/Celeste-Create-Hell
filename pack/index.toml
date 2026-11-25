@@ -1901,8 +1901,8 @@ hash = "bf29c048059a9d0b6ff0c4fd3bf6995ffc9637239fa428571a09cbe30cb2237a"
 metafile = true
 
 [[files]]
-file = "mods/celeste-early-fixes-1.0.4.jar"
-hash = "91289582903129c233a0b0e4f7bb0354fe66499e15c4456383b9cc9fe0f3b6dd"
+file = "mods/celeste-early-fixes-1.0.5.jar"
+hash = "6b4bb44ebbb52128fba61f3e7556f1c37123aa6b59559a2120fd75f6b1f99fff"
 
 [[files]]
 file = "mods/cgs.pw.toml"
@@ -3002,6 +3002,11 @@ metafile = true
 [[files]]
 file = "mods/passable-foliage.pw.toml"
 hash = "4f1af076df8b7f898ca1a6e629d6e1c03dfff644105618b127043831f7776ef7"
+metafile = true
+
+[[files]]
+file = "mods/pehkui.pw.toml"
+hash = "e5141bf653c820b9967b8be2e3d9d8e83f3b54d0450f0cabe812e00cce481fdf"
 metafile = true
 
 [[files]]
