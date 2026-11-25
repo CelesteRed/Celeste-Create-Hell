@@ -15,7 +15,8 @@
     "BrewingAmateurMixin",
     "CreateMachineFoodMixin",
     "CreateFanFoodMixin",
-    "CreateCrafterFoodMixin"
+    "CreateCrafterFoodMixin",
+    "FlowingFluidsWaterloggedGuardMixin"
   ],
   "injectors": {
     "defaultRequire": 1

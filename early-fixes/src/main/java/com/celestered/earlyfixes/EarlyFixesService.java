@@ -45,6 +45,11 @@ public final class EarlyFixesService implements ITransformationService {
     public void onLoad(IEnvironment env, Set<String> otherServices) {
         if (done) return;
         done = true;
+        try {
+            RemovedMods.clean();
+        } catch (Throwable t) {
+            Log.warn("Old-mod cleanup failed: " + t);
+        }
         // Inside the restarted game there is nothing to do, and Sodium's workaround must stay in place.
         if (Boolean.getBoolean("relauncher.didRelaunch")) return;
         Settings settings = Settings.load();

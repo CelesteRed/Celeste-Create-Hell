@@ -4,7 +4,7 @@ license = "MIT"
 
 [[mods]]
 modId = "celeste_server_fixes"
-version = "1.2.0"
+version = "1.2.1"
 displayName = "Celeste Server Fixes"
 authors = "CelesteRed"
 description = "Server-side rules for Celeste Create Hell: water (sugar water, fan evaporation, dripstone, waterlogged catalysts) and class crafting (Cook food stamps, Factory-made food, Amateur potions)."

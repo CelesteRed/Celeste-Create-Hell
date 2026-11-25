@@ -1,7 +1,7 @@
 # Builds celeste-early-fixes.jar and copies it into the pack.
 # Needs a JDK 17+ (javac + jar). Usage:  powershell -ExecutionPolicy Bypass -File early-fixes\build.ps1
 $ErrorActionPreference = 'Stop'
-$Version = '1.0.3'
+$Version = '1.0.4'
 
 $root = $PSScriptRoot
 $libs = Join-Path $root 'build\libs-compile'
