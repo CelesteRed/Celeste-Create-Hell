@@ -294,8 +294,8 @@ Every food item carries a quality, and it applies to **whoever eats it** (the `c
 | Food | Hunger and saturation when eaten | How it's marked |
 |---|---|---|
 | **Cooked by a Cook** | 100% | Gold "Cooked by a Cook" lore line |
-| **Factory-made** (Create) | 85% | Gray "Factory-made" lore line |
-| Everything else (made by a non-Cook, raw, found) | 70% | none |
+| **Factory-made** (Create) | 75% (was 85%) | Gray "Factory-made" lore line |
+| Everything else (made by a non-Cook, raw, found) | 50% (was 70%) | none |
 
 How food becomes "Cooked by a Cook":
 - **Crafting**: a Cook crafts it (crafting grid).
@@ -366,7 +366,7 @@ Every enchantment starts at **level I** and levels up as you use the item (minin
 ### Hands-On Delight: cooking is a skill
 Farmer's Delight stations open in the world: you stir the pot and chop on the board yourself. Stirring well earns stars, and each star adds servings.
 - **A failed dish gives nothing.** If the stirring earns **zero stars**, the ingredients are used up and no meal comes out (normally you'd still get one serving).
-- **Cook quality:** meals a **Cook** serves out of a Hands-On cooking pot are "Cooked by a Cook" (100% hunger). Everyone else's are plain (70%), and Create-made food is 85%. So Cook food stays the best food in the game.
+- **Cook quality:** meals a **Cook** serves out of a Hands-On cooking pot are "Cooked by a Cook" (100% hunger). Everyone else's are plain (50%), and Create-made food is 75%. So Cook food stays the best food in the game.
 
 ### Spoiled: food rots after 7 days
 | Setting (`config/spoiled-common.toml`) | Before | After |
@@ -378,3 +378,10 @@ Farmer's Delight stations open in the world: you stir the pot and chop on the bo
 | `spoilBlacklist` (never spoil) | rotten flesh, enchanted golden apple | rotten flesh, golden apple, enchanted golden apple, golden carrot, honey bottle, rotten tomato |
 
 Spoiling advances while the food is in a loaded inventory or container, so the 7 days are counted while the server runs and the chunk is loaded.
+
+### 8.1.0 follow-up: food quality
+| Food | Before | After |
+|---|---|---|
+| Cooked by a Cook | 100% | 100% |
+| Factory-made (Create) | 85% | **75%** |
+| Everything else (non-Cook, raw, found) | 70% | **50%** |
