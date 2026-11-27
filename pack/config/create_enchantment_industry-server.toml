@@ -23,7 +23,7 @@
 	deployerCollectXp = true
 	#.
 	#Whether the Mending enchantment applies to Deployer-held items (Needs deployerCollectXp = true).
-	deployerMendItem = true
+	deployerMendItem = false
 	#.
 	#Whether Deployers can perform sweep attacks.
 	deployerSweepAttack = true
@@ -73,7 +73,7 @@
 		#.
 		#If the printing of Enchanted Books function of Printers should be enabled.
 		#[@cui:RequiresReload:server]
-		enableEnchantedBookPrinting = true
+		enableEnchantedBookPrinting = false
 		#.
 		#If the printing of Create's copiable items function of Printers should be enabled.
 		#[@cui:RequiresReload:server]
@@ -106,7 +106,7 @@
 		#The cost multiplier of printing Enchanted Books.
 		# Default: 1.0
 		# Range: 0.009999999776482582 ~ 100.0
-		printingEnchantedBookCostMultiplier = 3.0
+		printingEnchantedBookCostMultiplier = 6.0
 		#.
 		#Whether the Printer denylist prevents Enchanted Books from being copied.Setting this to false allows copying Enchanted Books without denied enchantments
 		printingEnchantedBookDenylistStopCopying = true
@@ -161,12 +161,12 @@
 		#The max experience level a Blaze Enchanter can use in Regular Enchanting
 		# Default: 30
 		# Range: > 0
-		blazeEnchanterMaxEnchantLevel = 30
+		blazeEnchanterMaxEnchantLevel = 15
 		#.
 		#The max experience level a Blaze Enchanter can use in Super Enchanting
 		# Default: 60
 		# Range: > 0
-		blazeEnchanterMaxSuperEnchantLevel = 60
+		blazeEnchanterMaxSuperEnchantLevel = 30
 		#.
 		#Chance per curse roll for blocked-lightning Super Enchanting to add an applicable curse to the result
 		# Default: 0.5
@@ -186,12 +186,12 @@
 		#Max enchantment level in Super Enchanting will be extended by this value when no per-enchantment processing rule exists
 		# Default: 1
 		# Range: 0 ~ 255
-		blazeEnchanterMaxLevelExtension = 1
+		blazeEnchanterMaxLevelExtension = 0
 		#.
 		#Max enchantment level in Super Forging will be extended by this value when no per-enchantment processing rule exists
 		# Default: 1
 		# Range: 0 ~ 255
-		blazeForgerMaxLevelExtension = 1
+		blazeForgerMaxLevelExtension = 0
 		#.
 		#If Super Enchanting and Super Forging ignores enchantment compatibility
 		ignoreEnchantmentCompatibility = false
@@ -217,12 +217,12 @@
 		#Experience cost coefficient of Classic Blaze Enchanter regular enchanting.
 		# Default: 1.0
 		# Range: 0.009999999776482582 ~ 3.4028234663852886E38
-		classicBlazeEnchanterNormalEnchantingCostCoefficient = 1.0
+		classicBlazeEnchanterNormalEnchantingCostCoefficient = 3.0
 		#.
 		#Experience cost coefficient of Classic Blaze Enchanter super enchanting.
 		# Default: 1.0
 		# Range: 0.009999999776482582 ~ 3.4028234663852886E38
-		classicBlazeEnchanterSuperEnchantingCostCoefficient = 1.0
+		classicBlazeEnchanterSuperEnchantingCostCoefficient = 3.0
 		#.
 		#Probability that a cursed Classic Blaze Enchanter super enchants resulting in a drop in enchantment level.
 		# Default: 0.25
@@ -232,47 +232,47 @@
 		#Global experience cost multiplier for regular Blaze Enchanter operations.
 		# Default: 1.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		blazeEnchanterNormalEnchantingCostMultiplier = 1.0
+		blazeEnchanterNormalEnchantingCostMultiplier = 3.0
 		#.
 		#Global experience cost multiplier for Super Blaze Enchanter operations.
 		# Default: 1.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		blazeEnchanterSuperEnchantingCostMultiplier = 2.0
+		blazeEnchanterSuperEnchantingCostMultiplier = 6.0
 		#.
 		#Experience cost multiplier for direct Blaze Enchanter operations on items and books.
 		# Default: 1.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		blazeEnchanterDirectEnchantingCostMultiplier = 1.0
+		blazeEnchanterDirectEnchantingCostMultiplier = 3.0
 		#.
 		#Experience cost multiplier for Blaze Enchanter operations that write enchantments into templates.
 		# Default: 1.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		blazeEnchanterTemplateEnchantingCostMultiplier = 1.0
+		blazeEnchanterTemplateEnchantingCostMultiplier = 3.0
 		#.
 		#Global experience cost multiplier for regular Blaze Forger operations.
 		# Default: 1.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		blazeForgerNormalForgingCostMultiplier = 1.0
+		blazeForgerNormalForgingCostMultiplier = 2.0
 		#.
 		#Global experience cost multiplier for Super Blaze Forger operations.
 		# Default: 1.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		blazeForgerSuperForgingCostMultiplier = 2.0
+		blazeForgerSuperForgingCostMultiplier = 4.0
 		#.
 		#Experience cost multiplier for Blaze Forger merge operations.
 		# Default: 1.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		blazeForgerMergeCostMultiplier = 1.0
+		blazeForgerMergeCostMultiplier = 2.0
 		#.
 		#Experience cost multiplier for Blaze Forger apply operations.
 		# Default: 1.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		blazeForgerApplyCostMultiplier = 1.0
+		blazeForgerApplyCostMultiplier = 2.0
 		#.
 		#Experience cost multiplier for Blaze Forger extract operations.
 		# Default: 1.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		blazeForgerExtractCostMultiplier = 1.0
+		blazeForgerExtractCostMultiplier = 2.0
 		#.
 		#Extra level cost added when Super Forging ignores an enchantment conflict.
 		# Default: 1

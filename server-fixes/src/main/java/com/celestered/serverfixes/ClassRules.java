@@ -60,6 +60,10 @@ public final class ClassRules {
         return stack;
     }
 
+    public static boolean isStamped(ItemStack stack) {
+        return stack.getOrDefault(DataComponents.CUSTOM_DATA, CustomData.EMPTY).copyTag().contains("cch_food");
+    }
+
     public static void stampAll(List<ItemStack> stacks, String kind) {
         if (stacks == null) return;
         for (ItemStack s : stacks) stampFood(s, kind);

@@ -16,7 +16,11 @@
     "CreateMachineFoodMixin",
     "CreateFanFoodMixin",
     "CreateCrafterFoodMixin",
-    "FlowingFluidsWaterloggedGuardMixin"
+    "FlowingFluidsWaterloggedGuardMixin",
+    "AnvilBooksArmorOnlyMixin",
+    "BlazeForgerArmorOnlyMixin",
+    "HandsOnFailedDishMixin",
+    "HandsOnCookServeMixin"
   ],
   "injectors": {
     "defaultRequire": 1

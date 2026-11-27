@@ -177,10 +177,6 @@ file = "config/alexscaves_biome_generation/toxic_caves.json"
 hash = "f9e79d5c2c508e03e72da253925f7060acc9146191df44d5f21f0513a4b34c66"
 
 [[files]]
-file = "config/alexsmobs-common.toml"
-hash = "a20e0dbdaf6a06c1d65b15784d2f90d597158a6d4c3dff0922802226462bb954"
-
-[[files]]
 file = "config/alexsmobs/alligator_snapping_turtle_spawns.json"
 hash = "b2c962e1ec2f65014b97c16621dc6cb8820caac55e993f2db5f826fa87e7dbe0"
 
@@ -541,6 +537,10 @@ file = "config/alexsmobs/warped_toad_spawns.json"
 hash = "72126b26d7f3ae03b80df97dd103e0cec87d10829e86ac8b08da23abc7b318d8"
 
 [[files]]
+file = "config/alexsmobs-common.toml"
+hash = "a20e0dbdaf6a06c1d65b15784d2f90d597158a6d4c3dff0922802226462bb954"
+
+[[files]]
 file = "config/almanac-common.toml"
 hash = "43303ea5835f439a1fc1e7eb771834cfce26450a2381ad192621e4ed5532ff29"
 
@@ -686,7 +686,7 @@ hash = "d8fb691161a95c2b24c8a9b7c756ceda7be6e718a2b66d41d977aeeea65cd885"
 
 [[files]]
 file = "config/create_enchantment_industry-server.toml"
-hash = "a9f60fef390216a7b24afb1ae5380e9504d1cc80ef94e36d8c1812d2220e7ed6"
+hash = "21cfd782a2efb72b65b81e6a66107445972a502efdf51c61b992af4066ab87c1"
 
 [[files]]
 file = "config/create_radar-server.toml"
@@ -789,12 +789,12 @@ file = "config/curios-server.toml"
 hash = "3c34cf9f7918c6a9ec15b14a87aa4570a751c1688f8ac01cb2e9acfb9392a734"
 
 [[files]]
-file = "config/customwindowtitle-client.toml"
-hash = "a5fec332f7b894c1086623aba256b74df0c01fcf5685a2f7f993854791216949"
-
-[[files]]
 file = "config/customwindowtitle/icon.png"
 hash = "dcf8769d72e7283a3898626bc53e12f312929139eece1745a442353172e81eaf"
+
+[[files]]
+file = "config/customwindowtitle-client.toml"
+hash = "a5fec332f7b894c1086623aba256b74df0c01fcf5685a2f7f993854791216949"
 
 [[files]]
 file = "config/darkness-biomes.json"
@@ -1017,10 +1017,6 @@ file = "config/jade/sort-order.json"
 hash = "553a76c21c850778b410baa78c11e5236b9d6723d1a29039d1953800181b1aa1"
 
 [[files]]
-file = "config/jei-server.toml"
-hash = "702acd04d99445bce659d04fcc488e1a98c8a803983c31ae262b0f3a47fdc8d3"
-
-[[files]]
 file = "config/jei/blacklist.json"
 hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
@@ -1051,6 +1047,10 @@ hash = "6a91c09d1cabc1980d90ab102a03ec58c0551213ab16a459b599d768b334d054"
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
 hash = "82858197e1452dd0784a76867b4f1956561b117c1297ff85178a2ad909a1dbca"
+
+[[files]]
+file = "config/jei-server.toml"
+hash = "702acd04d99445bce659d04fcc488e1a98c8a803983c31ae262b0f3a47fdc8d3"
 
 [[files]]
 file = "config/kiwi-client.yaml"
@@ -1445,12 +1445,16 @@ file = "config/spark/config.json"
 hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
 
 [[files]]
+file = "config/spark/tmp/about.txt"
+hash = "d7514c0ddb6ae8611a281527bf04ca6cbcea1fa21758534fdcd08ed0f51c19c0"
+
+[[files]]
 file = "config/spark/tmp-client/about.txt"
 hash = "d7514c0ddb6ae8611a281527bf04ca6cbcea1fa21758534fdcd08ed0f51c19c0"
 
 [[files]]
-file = "config/spark/tmp/about.txt"
-hash = "d7514c0ddb6ae8611a281527bf04ca6cbcea1fa21758534fdcd08ed0f51c19c0"
+file = "config/spoiled-common.toml"
+hash = "f229add37e55eb8d92c47ef3b4a906756d286018c5057a987e24f3108eb3947f"
 
 [[files]]
 file = "config/ssrd-common.toml"
@@ -2321,6 +2325,11 @@ hash = "218dcd780f0251a15f78b097206ea22a519d57b974b39e2fdd43dce91ac07133"
 metafile = true
 
 [[files]]
+file = "mods/diegesis-api.pw.toml"
+hash = "cda3fce14b3bb01b9718651ee863ebf7364fd5ff4b4988ac2eb9149808bc87d2"
+metafile = true
+
+[[files]]
 file = "mods/distant-friends.pw.toml"
 hash = "0a9cfda308779f1c006144a6e1797ebf42b628477bcbb233bbba8d10af15075c"
 metafile = true
@@ -2543,6 +2552,11 @@ metafile = true
 [[files]]
 file = "mods/handcrafted.pw.toml"
 hash = "0004feab868f7b873c12db05aae0d0dac6c87b497490b48bb66480e7c8d0f340"
+metafile = true
+
+[[files]]
+file = "mods/handson-delight.pw.toml"
+hash = "8186d6c8cbec9295429b3de4efafb782ef973c5dffcde6606eccfa58740df831"
 metafile = true
 
 [[files]]
@@ -2991,6 +3005,11 @@ hash = "e5141bf653c820b9967b8be2e3d9d8e83f3b54d0450f0cabe812e00cce481fdf"
 metafile = true
 
 [[files]]
+file = "mods/penchant.pw.toml"
+hash = "52418227e7262c3413d37cf99c798d055fa36bd79336e66f41b308fb31abdf08"
+metafile = true
+
+[[files]]
 file = "mods/pet-cemetery.pw.toml"
 hash = "f54003416e887882952b9a07e339829362c2c597ccd2d651c0a03d2120fb8a3a"
 metafile = true
@@ -3238,6 +3257,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
+metafile = true
+
+[[files]]
+file = "mods/spoiled.pw.toml"
+hash = "bbe8684ea1cffd8741a20eabce3a7fef4fde88b6f5bb94309b3d0daeb9fa9ca7"
 metafile = true
 
 [[files]]

@@ -332,3 +332,49 @@ Tested on the local server:
 | Aeronautics Camera Sync config shipped already reset | No "Config Reset" pop-up on first launch. |
 | Removed Draggable Lists | Broke clicking in the server list: clicking a server selected the one below it. Early Fixes 1.0.6 deletes it from players' installs. |
 | Main menu (FancyMenu 3.9.1) | Join Server button lines up exactly with the vanilla buttons. |
+
+## 17. Enchanting rework (Penchant), harder Create Enchantment Industry, Hands-On Delight, food spoilage
+New mods (client + server): **Penchant** 0.3.7, **Hands-On Delight** 1.8.0 (+ **Diegesis** library), **Spoiled** 6.3.0. Server-side rules are in **Celeste Server Fixes 1.3.0**.
+
+### Penchant: enchantments level up through use
+Every enchantment starts at **level I** and levels up as you use the item (mining, fighting, taking hits). Hold Left Ctrl to see the progress bars. Penchant modules that are on (built-in data packs):
+
+| Module | Effect |
+|---|---|
+| Table Rework | Pick individual enchantments at the table; each costs XP, needs enough bookshelves, and 1 lapis. Rare ones unlock by putting enchanted books in nearby chiseled bookshelves. A grindstone near the table moves enchantments off items onto books. |
+| Bookshelf Placement | Chiseled bookshelves and lecterns count; shelves can sit anywhere in a 7×4×7 area around the table. |
+| Durability Rework | **Mending no longer works.** Unbreaking goes to V, and V makes the item unbreakable. |
+| Loot Rework | Common / Uncommon / Rare / Unique enchantment tiers with fixed sources (for example Silk Touch and Fortune only from mineshaft/dungeon loot). |
+| Guaranteed Drops | Penchant default. |
+| **No Anvil Books** | **Off.** It blocks books on everything; we use our own rule instead (below). |
+
+**Enchanted books only go onto armor.** In an anvil, an enchanted book can be applied to armor (and combined with other books) but not to tools or weapons. Those get their enchantments from the table and level them up by use.
+
+### Create Enchantment Industry: no bypasses
+| Setting / behaviour | Before | After |
+|---|---|---|
+| Blaze Forger "apply book" onto tools/weapons | allowed | **blocked** (armor still allowed), same rule as the anvil |
+| Printer copying enchanted books (`enableEnchantedBookPrinting`) | on | **off** (would duplicate rare loot-only books) |
+| Book printing cost (`printingEnchantedBookCostMultiplier`) | 3.0 | 6.0 |
+| Blaze Enchanter max level (`blazeEnchanterMaxEnchantLevel` / `MaxSuperEnchantLevel`) | 30 / 60 | **15 / 30** |
+| Going past max enchantment level (`blazeEnchanterMaxLevelExtension`, `blazeForgerMaxLevelExtension`) | +1 | **0** |
+| Blaze Enchanter XP cost (normal / super / direct / template) | ×1 / ×2 / ×1 / ×1 | **×3 / ×6 / ×3 / ×3** |
+| Classic Blaze Enchanter cost coefficients | 1.0 / 1.0 | **3.0 / 3.0** |
+| Blaze Forger XP cost (normal / super / merge / apply / extract) | ×1 / ×2 / ×1 / ×1 / ×1 | **×2 / ×4 / ×2 / ×2 / ×2** |
+| Deployers repairing items with XP (`deployerMendItem`) | on | **off** (mending is gone with Penchant) |
+
+### Hands-On Delight: cooking is a skill
+Farmer's Delight stations open in the world: you stir the pot and chop on the board yourself. Stirring well earns stars, and each star adds servings.
+- **A failed dish gives nothing.** If the stirring earns **zero stars**, the ingredients are used up and no meal comes out (normally you'd still get one serving).
+- **Cook quality:** meals a **Cook** serves out of a Hands-On cooking pot are "Cooked by a Cook" (100% hunger). Everyone else's are plain (70%), and Create-made food is 85%. So Cook food stays the best food in the game.
+
+### Spoiled: food rots after 7 days
+| Setting (`config/spoiled-common.toml`) | Before | After |
+|---|---|---|
+| `spoilEverything` | false (vanilla food only) | **true**: all food, including modded |
+| `spoilRate` × `defaultSpoilTime` | 30 s × 40 = 20 minutes | **6048 s × 100 = 604,800 s = 7 days** |
+| `defaultSpoilItem` | Rotten Flesh (edible) | **Rotten Tomato** (can't be eaten) |
+| Shulker boxes stop spoiling (`containerModifier`, `itemContainerModifier`) | yes | **no**: nowhere stops spoiling |
+| `spoilBlacklist` (never spoil) | rotten flesh, enchanted golden apple | rotten flesh, golden apple, enchanted golden apple, golden carrot, honey bottle, rotten tomato |
+
+Spoiling advances while the food is in a loaded inventory or container, so the 7 days are counted while the server runs and the chunk is loaded.
