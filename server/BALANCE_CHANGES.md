@@ -426,3 +426,15 @@ Wool armor keeps you warm; leaf armor keeps you cool. Nearby heat sources (campf
 - **Inventory Backups:** records every inventory and ender chest change. It saves on death, join, quit and while playing, keeps 30 days, and lets you roll back.
 - **InvSee:** ops can open any player's inventory or ender chest, even offline (`/invsee <player>`, `/endersee <player>`).
 - **GriefLogger:** logs block placing/breaking and container access for inspecting and rollback.
+
+### Thin air (Celeste Server Fixes 1.5.0)
+The Thin Air mod has no 1.21.1 version, so this is our own server-side rule built on Create's diving gear.
+| Place | Before | After |
+|---|---|---|
+| Overworld below Y 0 (measured at your eyes) | normal air | **no air** |
+| The Nether | normal air | **no air** |
+| Deeper and Darker (Otherside) | normal air | **no air** |
+| The Bumblezone, the End, Overworld above Y 0 | normal air | normal air |
+
+- In thin air you lose breath like underwater: the bubble bar empties in about 15 s, then you take 2 drowning damage per second.
+- A **Create diving helmet plus a backtank with air** lets you breathe. The backtank loses 1 air per second (a copper backtank's 900 air lasts 15 minutes). Fill backtanks with a Create air compressor setup as usual.

@@ -2,7 +2,7 @@
 # Builds celeste-server-fixes.jar (server-only NeoForge 1.21.1 mod). Run from WSL; uses the Windows JDK.
 # Needs a NeoForge server install for the compile classpath (Minecraft + Mixin jars).
 set -euo pipefail
-VERSION=1.4.0
+VERSION=1.5.0
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 SERVER="${SERVER:-/mnt/c/CelesteTest/server}"
 JDK="${JDK:-/mnt/c/Program Files/Eclipse Adoptium/jdk-21.0.10.7-hotspot/bin}"
