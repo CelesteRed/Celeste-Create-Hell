@@ -385,3 +385,44 @@ Spoiling advances while the food is in a loaded inventory or container, so the 7
 | Cooked by a Cook | 100% | 100% |
 | Factory-made (Create) | 85% | **75%** |
 | Everything else (non-Cook, raw, found) | 70% | **50%** |
+
+## 18. 8.2.0: dangerous weather, longer seasons, lighting, admin tools
+New mods:
+- **Client + server:** Hoarfrost: Snow & Blizzards 1.4.0, Petrichor: Rain & Storms 1.7.0, Living Wind 1.3.2, Lumen Rigs 1.4.0, Neon Glowsticks 1.2.1, Veil 4.5.2, Hands-On Let's Do 1.2.0.
+- **Client only:** Hands-On Vanilla 1.2.6.
+- **Server only:** Inventory Backups 3.2.0, InvSee 1.2.3, GriefLogger 1.2.10.
+- Hoarfrost, Petrichor, Lumen Rigs, Neon Glowsticks and Living Wind aren't on Modrinth. Their jars (MIT, from GitHub) are bundled in the full pack and fetched by unsup for the Modrinth version.
+
+### Weather is dangerous
+| Rule | Before | After |
+|---|---|---|
+| Standing under open sky in falling snow | nothing (only Tough As Nails cooling) | **You freeze**: frost overlay after ~7 s, then 1 freeze damage every 2 s (leather armor does not stop it). Thunder-blizzards freeze twice as fast and deal 2 damage every 2 s. |
+| What protects you | – | Shelter (a roof over your head), or a **full set of wool armor** (`#toughasnails:heating_armor`). Leather armor doesn't count. |
+| Petrichor extra lightning in thunderstorms | 1.5 / min within 96 blocks | **4 / min within 48 blocks**, aimed at the tallest spot nearby |
+| Hoarfrost blizzard weights (light / normal / heavy) | 2 / 1 / 0 | **3 / 3 / 1** |
+
+### No cheesing temperature
+Tough As Nails let you fix your temperature with items. These tags are now empty, so armor (and shelter) is the only way:
+| Tag | Before | After |
+|---|---|---|
+| `heating_held_items` | lava bucket | none |
+| `cooling_held_items` | powder snow bucket | none |
+| `heating_consumed_items` | Charc-Os | none |
+| `cooling_consumed_items` | ice cream | none |
+
+Wool armor keeps you warm; leaf armor keeps you cool. Nearby heat sources (campfires, lava) and the Thermoregulator still work, so a proper shelter is still a good way to stay warm.
+
+### Seasons
+| Setting | Before | After |
+|---|---|---|
+| Serene Seasons `sub_season_duration` (one "month") | 8 in-game days | **14 in-game days** (a year = 168 in-game days) |
+
+### Graphics
+- Sodium + Iris remain the renderer. Embeddium/Oculus were never in the pack. Celeste Early Fixes **1.0.7** now deletes any leftover `embeddium-`/`oculus-` jars before load.
+- Veil 4.5.2 is installed standalone (previously only 4.3.2 bundled inside Sable) for Lumen Rigs' per-pixel lighting.
+
+### Deaths and admin tools
+- **Deaths:** Sable Player Ragdoll and Ragdoll Reactions play the body; Gravestone (+ the Sable compatibility patch) and You're in Grave Danger keep your items.
+- **Inventory Backups:** records every inventory and ender chest change. It saves on death, join, quit and while playing, keeps 30 days, and lets you roll back.
+- **InvSee:** ops can open any player's inventory or ender chest, even offline (`/invsee <player>`, `/endersee <player>`).
+- **GriefLogger:** logs block placing/breaking and container access for inspecting and rollback.

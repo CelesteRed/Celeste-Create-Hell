@@ -20,7 +20,8 @@
     "AnvilBooksArmorOnlyMixin",
     "BlazeForgerArmorOnlyMixin",
     "HandsOnFailedDishMixin",
-    "HandsOnCookServeMixin"
+    "HandsOnCookServeMixin",
+    "PlayerWeatherMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -16,7 +16,7 @@ final class RemovedMods {
     /** Lowercase filename prefixes of mods that are no longer part of Celeste Create Hell. */
     private static final String[] PREFIXES = {
             "emotecraft-", "emotetweaks-", "figura-", "cosmetica-",
-            "zfastnoise", "fastnoise", "draggable_lists-",
+            "zfastnoise", "fastnoise", "draggable_lists-", "embeddium-", "oculus-",
     };
 
     private RemovedMods() {}

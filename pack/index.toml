@@ -957,6 +957,10 @@ file = "config/herbalbrews-common.toml"
 hash = "2885a870b53534c8f8d3c580973a1fee8a303e7919b482b7ccf946bb6822d6ba"
 
 [[files]]
+file = "config/hoarfrost-server.toml"
+hash = "4c4b2a6899a88237cc7a3565fce15726f81127dc3925d16c59ea91e1dd956122"
+
+[[files]]
 file = "config/immersive_aircraft.json"
 hash = "126bf93c76ee071685685cf3523ecb60dd7fc648d6eb5fae70ad697681757e48"
 
@@ -1213,6 +1217,10 @@ file = "config/patchouli-client.toml"
 hash = "d9a6d7cadb6d473cf087602d9866840d2bb7f2c16915267eb3f6fbf68d5d774d"
 
 [[files]]
+file = "config/petrichor-common.toml"
+hash = "cea8ee823716f7507639e252cbd150b3af49263b754ef5cb5167542be817cf7d"
+
+[[files]]
 file = "config/physicsmod/physics_animations_client_config.json"
 hash = "d8a629b25da461374926b02b6649ed90154cb1bb6ab7e5208f519b5bcf29b08b"
 
@@ -1370,7 +1378,7 @@ hash = "f63f94b985285add146c73a8747d278cec3d386807855b25de0e1db9962c153f"
 
 [[files]]
 file = "config/sereneseasons/seasons.toml"
-hash = "c152c1704a02b3a4826421c7890d4584097fa8357341ce70543d21b6c9142875"
+hash = "8cfa8c70584f46d7f568d7da5e56ef9b90cdcfa624437a164a1652000ae82993"
 
 [[files]]
 file = "config/shouldersurfing-client.toml"
@@ -1721,6 +1729,10 @@ hash = "2dc498bd8a43a8e02fc9d08fe5846ac17f6eabbecbf38ae39aa7b1f23fe100b0"
 metafile = true
 
 [[files]]
+file = "mods/LivingWind-NeoForge-1.21.1-v1.3.2.jar"
+hash = "4a154c6203ad42bfdad3804db3f53fef200486dee3200db9cf08e0621090e935"
+
+[[files]]
 file = "mods/achievements-optimizer.pw.toml"
 hash = "3ef06116165a362b37e3622e4b78b49b33a5d8707d38c2243b2014f9ba35fa01"
 metafile = true
@@ -1901,8 +1913,8 @@ hash = "bf29c048059a9d0b6ff0c4fd3bf6995ffc9637239fa428571a09cbe30cb2237a"
 metafile = true
 
 [[files]]
-file = "mods/celeste-early-fixes-1.0.6.jar"
-hash = "cff2329eae77841d137939b06afd7fd794e48c076adfcd9141cd20a20f27ac4c"
+file = "mods/celeste-early-fixes-1.0.7.jar"
+hash = "d0c9faf173bce1c45837d38df4c5ddacf8ba2073c0b711bc89eaebe4e976c87a"
 
 [[files]]
 file = "mods/cgs.pw.toml"
@@ -2560,9 +2572,23 @@ hash = "8186d6c8cbec9295429b3de4efafb782ef973c5dffcde6606eccfa58740df831"
 metafile = true
 
 [[files]]
+file = "mods/handson-letsdo.pw.toml"
+hash = "cb3a0e35cb599ecdd8207e517efe2ce0e0817f12bdccd208f7ad0884580f21f6"
+metafile = true
+
+[[files]]
+file = "mods/handson-vanilla.pw.toml"
+hash = "7ea3366dcb160d95e2ec1a02ba9b7a8c75f706cab4816235a81d7a59b0241ccb"
+metafile = true
+
+[[files]]
 file = "mods/higher-snow-lines.pw.toml"
 hash = "eaf5341529f7b09f496b90b5c2593617a97f074f8b60702d89a75214fee8ea77"
 metafile = true
+
+[[files]]
+file = "mods/hoarfrost-neoforge-1.21.1-1.4.0.jar"
+hash = "ded00df7a531451339fea6c9e5098a51da1ecefc2312a64231e84a5b68f4a674"
 
 [[files]]
 file = "mods/horses-can-float.pw.toml"
@@ -2617,6 +2643,11 @@ metafile = true
 [[files]]
 file = "mods/inv-view-forge.pw.toml"
 hash = "a74d100e832bdffa1b770b76c0ef1c70d5aedd2582c1fd661e4f1aa448fad69e"
+metafile = true
+
+[[files]]
+file = "mods/invsee.pw.toml"
+hash = "40219e13fe3299d87cf6a3e7663d33ddadc4167543d4c479015f4bb75b8f2202"
 metafile = true
 
 [[files]]
@@ -2770,6 +2801,10 @@ hash = "48bd525ac1cd8811759a7842548a49e51bd25455b8044f99a423d464987dfdc0"
 metafile = true
 
 [[files]]
+file = "mods/lumen_rigs-neoforge-1.21.1-1.4.0.jar"
+hash = "b35a089264487acd775b77d22d2aa688adbe4e584c82e533feddc341bdb38e6a"
+
+[[files]]
 file = "mods/melody.pw.toml"
 hash = "d7ff27bf5e0c0bd5ede8303d5a41cec193f700292c78c86ad6812a5193f013d9"
 metafile = true
@@ -2868,6 +2903,10 @@ metafile = true
 file = "mods/mru.pw.toml"
 hash = "f12ee0c88176e66a61de272f1be98077a86560c199903514de7657564130c34f"
 metafile = true
+
+[[files]]
+file = "mods/neon_glowsticks-neoforge-1.21.1-1.2.1.jar"
+hash = "8a3f596baf7ef0b16056a57d6f04301f7d66c8f99749f3d2a00e498613155fbf"
 
 [[files]]
 file = "mods/neruina.pw.toml"
@@ -3013,6 +3052,10 @@ metafile = true
 file = "mods/pet-cemetery.pw.toml"
 hash = "f54003416e887882952b9a07e339829362c2c597ccd2d651c0a03d2120fb8a3a"
 metafile = true
+
+[[files]]
+file = "mods/petrichor-neoforge-1.21.1-1.7.0.jar"
+hash = "5014584f3ddeac0a5976489933b476cf671923bb124d6d6ffc21686c1e42661f"
 
 [[files]]
 file = "mods/pick-up-notifier.pw.toml"
@@ -3367,6 +3410,11 @@ metafile = true
 [[files]]
 file = "mods/vc-admin-voice-chat-moderation-tool.pw.toml"
 hash = "25c53f68e0e163cd13ad8a4edb5d784dcf5771e90794aaa10800e970507c63ef"
+metafile = true
+
+[[files]]
+file = "mods/veil.pw.toml"
+hash = "475a240821a858455d59d6e703a209a18bc24d692b4a2716dc42b46c558ffc83"
 metafile = true
 
 [[files]]

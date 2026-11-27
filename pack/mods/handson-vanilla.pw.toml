@@ -1,0 +1,13 @@
+name = "Hands-On Vanilla"
+filename = "handson_vanilla-neoforge-1.21.1-1.2.6.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/vXV0SE04/versions/PzLNIi5M/handson_vanilla-neoforge-1.21.1-1.2.6.jar"
+hash-format = "sha512"
+hash = "f8f2c2334622c0dc5a5fbc6e0fc9c9f51921e523ad7169e4f174e29d69f8881318f4e4b0c2a6972d19e8c66728f6f9dd96c71b823cbea3646998403c83e4240d"
+
+[update]
+[update.modrinth]
+mod-id = "vXV0SE04"
+version = "PzLNIi5M"

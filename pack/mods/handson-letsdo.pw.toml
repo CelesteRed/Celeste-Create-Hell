@@ -1,0 +1,13 @@
+name = "Hands-On Let's Do"
+filename = "handson_letsdo-neoforge-1.21.1-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NQ7Q28qp/versions/DtHI1QSU/handson_letsdo-neoforge-1.21.1-1.2.0.jar"
+hash-format = "sha512"
+hash = "84a714910c978a8be135c016cc70b2569c0623865dcde6077c0ed6b3ea7ff44baf870acfffc5970d14033b4ef860887f574ce0c058ae6db0c8e76db35eda6bf3"
+
+[update]
+[update.modrinth]
+mod-id = "NQ7Q28qp"
+version = "DtHI1QSU"
